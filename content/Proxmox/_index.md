@@ -1,0 +1,12 @@
+---
+title: "Proxmox"
+date: 2017-10-17T15:26:15Z
+draft: false
+weight: 20
+description: "Proxmox"
+---
+
+Proxmox ID:
+- ID: `root`
+- PWD: `password`
+

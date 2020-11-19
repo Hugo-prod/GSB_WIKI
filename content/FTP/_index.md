@@ -11,13 +11,17 @@ L'objectif de ce serveur "FTP" est de proposer un service de stockage pour:
 - Fichier configurations (Routeur/Switch)
 - Images .ISO (Windows 7 Pro, Debian, Pfsense ...)
 
+**Informations:**
+- ID: `sio`
+- PWD: `sio2020`
+- IP: `192.168.1.5`
 
 ---  
 
 #### Documentation:  
 - Serveur sFTP:
-	- Installation du serveur sFTP
-	- Utilisation du serveur sFTP
+	- [Installation du serveur sFTP](/ftp/sftp/install_sftp/)
+	- [Utilisation du serveur sFTP](/ftp/sftp/use_sftp/)
 - Serveur TFTP:
-	- Installation du serveur TFTP
-	- Utilisation du serveur TFTP 
+	- [Installation du serveur TFTP](/ftp/tftp/install_tftp/)
+	- [Utilisation du serveur TFTP](/ftp/tftp/use_tftp/)

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Custom Shortcodes - GSB WIKI</title>
+<meta name="description" content="calling custom Shortcodes into your content files.">
+<meta name="generator" content="Hugo 0.78.1" />
+<link href="localhost:1313/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="#ZgotmplZ">
+<link rel="stylesheet" href="#ZgotmplZ">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="#ZgotmplZ">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script src="#ZgotmplZ"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="Custom Shortcodes" />
+<meta property="og:description" content="calling custom Shortcodes into your content files." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="localhost:1313/meta/custom-shortcodes/" />
+<meta property="og:image" content="localhost:1313"/>
+<meta property="article:published_time" content="2017-10-17T15:26:15+00:00" />
+<meta property="article:modified_time" content="2017-10-17T15:26:15+00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="localhost:1313"/>
+
+<meta name="twitter:title" content="Custom Shortcodes"/>
+<meta name="twitter:description" content="calling custom Shortcodes into your content files."/>
+<meta itemprop="name" content="Custom Shortcodes">
+<meta itemprop="description" content="calling custom Shortcodes into your content files.">
+<meta itemprop="datePublished" content="2017-10-17T15:26:15+00:00" />
+<meta itemprop="dateModified" content="2017-10-17T15:26:15+00:00" />
+<meta itemprop="wordCount" content="776">
+<meta itemprop="image" content="localhost:1313"/>
+
+
+
+<meta itemprop="keywords" content="" />
+</head>
+<body><div class="container"><header>
+<h1>GSB WIKI</h1><span class="version">Version 0.9.5</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">Wiki pour le projet GSB</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about/">About Hugo</a></li></ul>
+</nav>
+</div>
+<div class="content-container">
+<main><h1>Custom Shortcodes</h1>
+<aside class="table_of_contents">
+<h5>Table of Contents</h5><nav id="TableOfContents">
+  <ul>
+    <li><a href="#code-highlight-with-clipboard">Code highlight with clipboard</a></li>
+    <li><a href="#alert-panel">Alert panel</a>
+      <ul>
+        <li><a href="#alert-panel-using-html">Alert panel using HTML</a></li>
+        <li><a href="#alert-panel-using-markdown-use-the--character">Alert panel using Markdown (use the <code>%</code> character)</a></li>
+        <li><a href="#alert-panel-with-titles-and-colors">Alert panel with titles and colors</a></li>
+        <li><a href="#alert-panel-with-font-awesome">Alert panel with Font Awesome</a></li>
+      </ul>
+    </li>
+    <li><a href="#button">Button</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#button-with-font-awesome">Button with Font Awesome</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></aside>
+
+<h2 id="code-highlight-with-clipboard">Code highlight with clipboard</h2>
+<div class="code" id="sample/custom-shortcodes.html"><div class="filename">sample/custom-shortcodes.html</div><button class="copy-btn copy" title="Copy this code to your clipboard." data-clipboard-action="copy" aria-label="Copy this code."><i class="fas fa-clipboard"></i> Copy</button><div class="code-content" >
+			<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">highlight</span> <span style="color:#a6e22e">html</span> &gt;}}
+&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span>&gt;
+   &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;title&#34;</span>&gt;{{ .Title }}&lt;/<span style="color:#f92672">h1</span>&gt;
+    {{ range .Pages }}
+        {{ .Render &#34;summary&#34;}}
+    {{ end }}
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">section</span>&gt;
+{{&lt; /<span style="color:#f92672">highlight</span> &gt;}}
+</code></pre></div>
+	</div>
+</div>
+
+<h2 id="alert-panel">Alert panel</h2>
+<div class="panel panel-primary"><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<h3 id="alert-panel-using-html">Alert panel using HTML</h3>
+<div class="panel panel-primary"><div class="panel-body">
+
+<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+</div>
+
+<h3 id="alert-panel-using-markdown-use-the--character">Alert panel using Markdown (use the <code>%</code> character)</h3>
+<div class="panel panel-primary"><div class="panel-header">
+<h3>primary</h3>
+</div><div class="panel-body">
+<p><a href="https://www.google.com" title="Google's Homepage">I&rsquo;m an inline-style link with title</a></p>
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ul>
+</div>
+</div>
+<h3 id="alert-panel-with-titles-and-colors">Alert panel with titles and colors</h3>
+<div class="panel panel-primary"><div class="panel-header">
+<h3>primary</h3>
+</div><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<div class="panel panel-notice"><div class="panel-header">
+<h3>notice</h3>
+</div><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<div class="panel panel-success"><div class="panel-header">
+<h3>success</h3>
+</div><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<div class="panel panel-caution"><div class="panel-header">
+<h3>caution</h3>
+</div><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<div class="panel panel-warning"><div class="panel-header">
+<h3>warning</h3>
+</div><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<div class="panel panel-danger"><div class="panel-header">
+<h3>danger</h3>
+</div><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<h3 id="alert-panel-with-font-awesome">Alert panel with Font Awesome</h3>
+<div class="panel panel-danger"><div class="panel-header">
+<h3><i class="fas fa-exclamation-triangle"></i> danger</h3>
+</div><div class="panel-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<h2 id="button">Button</h2>
+<a href="#" class="button button-primary">
+primary</a>
+
+<a href="#" class="button button-notice">
+notice</a>
+
+<a href="#" class="button button-success">
+success</a>
+
+<a href="#" class="button button-caution">
+caution</a>
+
+<a href="#" class="button button-warning">
+warning</a>
+
+<a href="#" class="button button-danger">
+danger</a>
+
+<h4 id="button-with-font-awesome">Button with Font Awesome</h4>
+<a href="#" class="button button-primary">
+<i class="fas fa-download"></i> Download</a>
+
+<a href="#" class="button button-success">
+<i class="fas fa-cloud-download-alt"></i> Download</a>
+
+<div class="edit-meta">
+Last updated on 17 Oct 2017
+
+
+<br>
+Published on 17 Oct 2017
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/meta%5ccustom-shortcodes.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="#ZgotmplZ" title="Meta"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Meta</a>
+<a class="nav nav-next" href="#ZgotmplZ" title="Table of Contents">Next - Table of Contents <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="slide-menu">
+<ul>
+<li class=""><a href="localhost:1313">Home</a></li>
+
+<li class="parent has-sub-menu"><a href="#ZgotmplZ">Meta<span class="mark opened">-</span></a>
+  
+<ul class="sub-menu">
+<li class="active"><a href="#ZgotmplZ">Custom Shortcodes</a></li>
+<li class=""><a href="#ZgotmplZ">Table of Contents</a></li>
+<li class=""><a href="#ZgotmplZ">Rechercher ...</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="#ZgotmplZ">Réseaux (Plan/Vlan/Topologie...)<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="#ZgotmplZ">Adressage IP/Interface</a></li>
+<li class=""><a href="#ZgotmplZ">VLANs</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="#ZgotmplZ">Serveur FTP (sFTP &#43; TFTP)<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+
+<li class=" has-sub-menu"><a href="#ZgotmplZ">Serveur sFTP<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="#ZgotmplZ">Installation du serveur sFTP</a></li>
+<li class=""><a href="#ZgotmplZ">Utilisation du serveur sFTP</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="#ZgotmplZ">Serveur TFTP<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="#ZgotmplZ">Installation du serveur TFTP</a></li>
+<li class=""><a href="#ZgotmplZ">Utilisation du serveur TFTP</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="#ZgotmplZ">Chapter 1<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="#ZgotmplZ">Chapter 1-1</a></li>
+<li class=""><a href="#ZgotmplZ">Chapter 1-2</a></li>
+<li class=""><a href="#ZgotmplZ">Chapter 1-3</a></li>
+<li class=""><a href="#ZgotmplZ">Chapter 1-4</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serveur TFTP on GSB WIKI</title>
+    <link>localhost:1313/ftp/tftp/</link>
+    <description>Recent content in Serveur TFTP on GSB WIKI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="localhost:1313/ftp/tftp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation du serveur TFTP</title>
+      <link>localhost:1313/ftp/tftp/install_tftp/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/ftp/tftp/install_tftp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilisation du serveur TFTP</title>
+      <link>localhost:1313/ftp/tftp/use_tftp/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/ftp/tftp/use_tftp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

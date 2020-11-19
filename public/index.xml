@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home title on GSB WIKI</title>
+    <link>localhost:1313/</link>
+    <description>Recent content in Home title on GSB WIKI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adressage IP/Interface</title>
+      <link>localhost:1313/reseaux/adressage_ip_interface/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/reseaux/adressage_ip_interface/</guid>
+      <description>Feuille GSheet: Lien
+   Périphérique IP Masque CIDR Gateway Port sortant Port entrant Périphérique Flux                ROUTER CISCO 192.168.10.2 255.255.255.252 /30  G0/0 ??? ??? ROUTER &amp;lt;-&amp;gt; WAN   ROUTER CISCO 192.168.11.1 255.255.255.252 /30  G0/1 ENO1 PROXMOX (PFSENSE) ROUTER &amp;lt;-&amp;gt; PROXMOX (PFSENSE)              PROXMOX (PFSENSE) 192.</description>
+    </item>
+    
+    <item>
+      <title>Custom Shortcodes</title>
+      <link>localhost:1313/meta/custom-shortcodes/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/meta/custom-shortcodes/</guid>
+      <description>Code highlight with clipboard sample/custom-shortcodes.html Copy{{&amp;lt; highlight html &amp;gt;}} &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt; {{&amp;lt; /highlight &amp;gt;}}    Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Installation du serveur sFTP</title>
+      <link>localhost:1313/ftp/sftp/install_sftp/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/ftp/sftp/install_sftp/</guid>
+      <description>Construction d&amp;rsquo;un SFTP SSH JAIL
+  Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users  Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio  Pour ajouter des utilisateurs existant:  usermod -G sftp_users john  Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd  Paramètrer les permissions:  chown root /home/sio  Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/upload chown sio /home/sio/upload  Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-server Subsystem sftp internal-sftp Match Group sftp_users X11Forwarding no AllowTcpForwarding no ChrootDirectory %h ForceCommand internal-sftp  Redemarrer le service sshd:  systemctl restart sshd </description>
+    </item>
+    
+    <item>
+      <title>Installation du serveur TFTP</title>
+      <link>localhost:1313/ftp/tftp/install_tftp/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/ftp/tftp/install_tftp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Table of Contents</title>
+      <link>localhost:1313/meta/table-of-contents/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/meta/table-of-contents/</guid>
+      <description>Note The TableOfContents field with true in your content’s front matter will render a table of contents.
+TableOfContents: true Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
+  Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Utilisation du serveur sFTP</title>
+      <link>localhost:1313/ftp/sftp/use_sftp/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/ftp/sftp/use_sftp/</guid>
+      <description>Connexion au serveur: Nous pouvons accéder au sFTP via FileZilla avec les identifiants:
+ IP: 192.168.1.5 ID: sio PWD: sio2020  Dossier de dépôt: Le dossier de dépôt de fichier est home/sio/upload</description>
+    </item>
+    
+    <item>
+      <title>Utilisation du serveur TFTP</title>
+      <link>localhost:1313/ftp/tftp/use_tftp/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/ftp/tftp/use_tftp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VLANs</title>
+      <link>localhost:1313/reseaux/vlan/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/reseaux/vlan/</guid>
+      <description>N° VLAN VLAN NAME SERVICE(s) ADRESSAGE IP CIDR MASQUE     10 XXXXXXXXX RESERVEE: Arrivée réseau salle SIO XXXXXXXXXXXX XX XXXXXXXXXXXXX   20 RESEAU_SYSTEME Réseau &amp;amp; Sytème 192.168.20.0 24 255.255.255.0   30 DIRECTION_DSI Direction / DSI 192.168.30.0 24 255.255.255.0   40 RH_C_J_SA RH / Compta / Juridique / Secrétariat Administratif 192.168.40.0 24 255.255.255.0   50 COMMUNICATION_REDACT Communication / Rédaction 192.168.50.0 24 255.</description>
+    </item>
+    
+    <item>
+      <title>Rechercher ...</title>
+      <link>localhost:1313/meta/search-shortcode/</link>
+      <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
+      
+      <guid>localhost:1313/meta/search-shortcode/</guid>
+      <description>var search = instantsearch({ indexName: &#39;hugo-demo-techdoc&#39;, searchClient: algoliasearch( &#39;7W4SAN4PLK&#39;, &#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39; ), routing: true, }); const renderHits = (renderOptions, isFirstRender) = { const { hits } = renderOptions; document.querySelector(&#39;#hits&#39;).innerHTML = ` ${hits .map( item = `${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ? item.description : item.content.length  200 ? item.content.substring( 0, 200 ) + &#39;...&#39; : item.content }
+` ) .join(&#39;&#39;)} `; }; const customHits = instantsearch.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1-1</title>
+      <link>localhost:1313/routeur/1/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/routeur/1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1-2</title>
+      <link>localhost:1313/routeur/2/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/routeur/2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1-3</title>
+      <link>localhost:1313/routeur/3/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/routeur/3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1-4</title>
+      <link>localhost:1313/routeur/4/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>localhost:1313/routeur/4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>localhost:1313/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/about/</guid>
+      <description>Hugo is a static site engine written in Go.
+It makes use of a variety of open source projects including:
+ Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

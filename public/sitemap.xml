@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>localhost:1313/meta/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/reseaux/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/reseaux/adressage_ip_interface/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/meta/custom-shortcodes/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/ftp/sftp/install_sftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/ftp/tftp/install_tftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/ftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/ftp/sftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/ftp/tftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/meta/table-of-contents/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/ftp/sftp/use_sftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/ftp/tftp/use_tftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/reseaux/vlan/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/routeur/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/meta/search-shortcode/</loc>
+    <lastmod>2020-03-30T18:49:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/</loc>
+    <lastmod>2019-10-26T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/routeur/1/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/routeur/2/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/routeur/3/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/routeur/4/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/tags/</loc>
+  </url>
+  
+</urlset>
