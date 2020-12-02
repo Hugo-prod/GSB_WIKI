@@ -3,116 +3,121 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>localhost:1313/meta/</loc>
+    <loc>51.38.177.192/meta/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/reseaux/</loc>
+    <loc>51.38.177.192/reseaux/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/reseaux/adressage_ip_interface/</loc>
+    <loc>51.38.177.192/reseaux/adressage_ip_interface/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/meta/custom-shortcodes/</loc>
+    <loc>51.38.177.192/meta/custom-shortcodes/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/ftp/sftp/install_sftp/</loc>
+    <loc>51.38.177.192/ftp/sftp/install_sftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/ftp/tftp/install_tftp/</loc>
+    <loc>51.38.177.192/ftp/tftp/install_tftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/ftp/</loc>
+    <loc>51.38.177.192/ftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/ftp/sftp/</loc>
+    <loc>51.38.177.192/ftp/sftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/ftp/tftp/</loc>
+    <loc>51.38.177.192/ftp/tftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/meta/table-of-contents/</loc>
+    <loc>51.38.177.192/meta/table-of-contents/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/ftp/sftp/use_sftp/</loc>
+    <loc>51.38.177.192/ftp/sftp/use_sftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/ftp/tftp/use_tftp/</loc>
+    <loc>51.38.177.192/ftp/tftp/use_tftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/reseaux/vlan/</loc>
+    <loc>51.38.177.192/reseaux/vlan/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/routeur/</loc>
+    <loc>51.38.177.192/reseaux/topologie_physique/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/meta/search-shortcode/</loc>
+    <loc>51.38.177.192/reseaux/topologie_logique/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>51.38.177.192/proxmox/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>51.38.177.192/routeur/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>51.38.177.192/pfsense/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>51.38.177.192/meta/search-shortcode/</loc>
     <lastmod>2020-03-30T18:49:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/</loc>
+    <loc>51.38.177.192/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/routeur/1/</loc>
+    <loc>51.38.177.192/routeur/1/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/routeur/2/</loc>
-    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/routeur/3/</loc>
-    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/routeur/4/</loc>
-    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>localhost:1313/about/</loc>
+    <loc>51.38.177.192/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/categories/</loc>
+    <loc>51.38.177.192/categories/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/tags/</loc>
+    <loc>51.38.177.192/tags/</loc>
   </url>
   
 </urlset>
