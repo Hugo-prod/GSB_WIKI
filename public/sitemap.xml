@@ -88,6 +88,11 @@
   </url>
   
   <url>
+    <loc>http://51.38.177.192/switch/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://51.38.177.192/pfsense/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -103,7 +108,7 @@
   </url>
   
   <url>
-    <loc>http://51.38.177.192/routeur/1/</loc>
+    <loc>http://51.38.177.192/routeur/config/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   

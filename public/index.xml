@@ -13,8 +13,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>http://51.38.177.192/reseaux/adressage_ip_interface/</guid>
-      <description>Feuille GSheet: Lien
-   Périphérique IP Masque CIDR Gateway Port sortant Port entrant Périphérique Flux                ROUTER CISCO 192.168.10.2 255.255.255.252 /30  G0/0 ??? ??? ROUTER &amp;lt;-&amp;gt; WAN   ROUTER CISCO 192.168.11.1 255.255.255.252 /30  G0/1 ENO1 PROXMOX (PFSENSE) ROUTER &amp;lt;-&amp;gt; PROXMOX (PFSENSE)              PROXMOX (PFSENSE) 192.</description>
+      <description>Feuille GSheet: Lien</description>
     </item>
     
     <item>
@@ -113,12 +112,12 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     </item>
     
     <item>
-      <title>Chapter 1-1</title>
-      <link>http://51.38.177.192/routeur/1/</link>
+      <title>Configuration</title>
+      <link>http://51.38.177.192/routeur/config/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/routeur/1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>http://51.38.177.192/routeur/config/</guid>
+      <description>TODO: Mettre la configuration du routeur </description>
     </item>
     
     <item>

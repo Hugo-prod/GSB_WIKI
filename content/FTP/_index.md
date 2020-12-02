@@ -11,6 +11,9 @@ L'objectif de ce serveur "FTP" est de proposer un service de stockage pour:
 - Fichier configurations (Routeur/Switch)
 - Images .ISO (Windows 7 Pro, Debian, Pfsense ...)
 
+![Serveur FTP](/images/ftp/FTP_SERVER.jpg)
+
+
 **Informations:**
 - ID: `sio`
 - PWD: `sio2020`

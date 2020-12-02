@@ -33,7 +33,7 @@
 <meta itemprop="description" content="Adressage IP/Interface">
 <meta itemprop="datePublished" content="2017-10-17T15:26:15+00:00" />
 <meta itemprop="dateModified" content="2017-10-17T15:26:15+00:00" />
-<meta itemprop="wordCount" content="194">
+<meta itemprop="wordCount" content="3">
 <meta itemprop="image" content="http://51.38.177.192/images/og-image.png"/>
 
 
@@ -55,232 +55,7 @@
 <div class="content-container">
 <main><h1>Adressage IP/Interface</h1>
 <p>Feuille GSheet: <a href="https://docs.google.com/spreadsheets/d/1ivqRhIszc4veoKZmCXfU5Y8Um4q_rQ7lHaY-grSesEw/edit?usp=sharing">Lien</a></p>
-<table>
-<thead>
-<tr>
-<th>Périphérique</th>
-<th>IP</th>
-<th>Masque</th>
-<th>CIDR</th>
-<th>Gateway</th>
-<th>Port sortant</th>
-<th>Port entrant</th>
-<th>Périphérique</th>
-<th>Flux</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>ROUTER CISCO</td>
-<td>192.168.10.2</td>
-<td>255.255.255.252</td>
-<td>/30</td>
-<td></td>
-<td>G0/0</td>
-<td>???</td>
-<td>???</td>
-<td>ROUTER &lt;-&gt; WAN</td>
-</tr>
-<tr>
-<td>ROUTER CISCO</td>
-<td>192.168.11.1</td>
-<td>255.255.255.252</td>
-<td>/30</td>
-<td></td>
-<td>G0/1</td>
-<td>ENO1</td>
-<td>PROXMOX (PFSENSE)</td>
-<td>ROUTER &lt;-&gt; PROXMOX (PFSENSE)</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>PROXMOX (PFSENSE)</td>
-<td>192.168.11.2</td>
-<td>255.255.255.252</td>
-<td>/30</td>
-<td></td>
-<td>ENO1</td>
-<td>G0/1</td>
-<td>ROUTEUR CISCO</td>
-<td>PROXMOX (PFSENSE) &lt;-&gt; ROUTER CISCO</td>
-</tr>
-<tr>
-<td>PROXMOX (PFSENSE)</td>
-<td>192.168.1.1</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>ENO2</td>
-<td>F0/0</td>
-<td>SWITCH (MUTLAB)</td>
-<td>PROXMOX (PFSENSE) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>PROXMOX (DHCP WINDOWS)</td>
-<td>192.168.1.2</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>ENO2</td>
-<td>F0/1</td>
-<td>SWITCH (MUTLAB)</td>
-<td>PROXMOX (DHCP WINDOWS) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td>___ (DHCP LINUX REDUNDANCY)</td>
-<td>192.168.1.3</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>enp0s3</td>
-<td>F0/2</td>
-<td>SWITCH (MUTLAB)</td>
-<td>___ (DHCP LINUX REDUNDANCY) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>PROXMOX (DNS WINDOWS)</td>
-<td>192.168.1.2</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>ENO2</td>
-<td>F0/1</td>
-<td>SWITCH (MUTLAB)</td>
-<td>PROXMOX (DNS WINDOWS) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td>___(DNS LINUX REDUNDANCY)</td>
-<td>192.168.1.4</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>enp0s3</td>
-<td>F0/3</td>
-<td>SWITCH (MUTLAB)</td>
-<td>___(DNS LINUX REDUNDANCY) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>PROXMOX (AD WINDOWS)</td>
-<td>192.168.1.2</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>ENO2</td>
-<td>F0/1</td>
-<td>SWITCH (MUTLAB)</td>
-<td>PROXMOX (AD WINDOWS) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>DELL DEBIAN SERVER FTP</td>
-<td>192.168.1.5</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>enp0s3</td>
-<td>F0/4</td>
-<td>SWITCH (MUTLAB)</td>
-<td>DELL DEBIAN SERVER FTP &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>NUC (WINDOWS)</td>
-<td>192.168.1.10</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>ethernet</td>
-<td>F0/5</td>
-<td>SWITCH (MUTLAB)</td>
-<td>NUC (WINDOWS) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-<tr>
-<td>NUC (LINUX)</td>
-<td>192.168.1.11</td>
-<td>255.255.255.0</td>
-<td>/24</td>
-<td></td>
-<td>enp0s3</td>
-<td>F0/6</td>
-<td>SWITCH (MUTLAB)</td>
-<td>NUC (LINUX) &lt;-&gt; SWITCH (MUTLAB)</td>
-</tr>
-</tbody>
-</table>
+<p><img src="/images/topologie/adressage_ip.PNG" alt="Adressage IP/Interface"></p>
 <div class="edit-meta">
 Last updated on 17 Oct 2017
 
@@ -351,8 +126,12 @@ Published on 17 Oct 2017
 <li class=" has-sub-menu"><a href="http://51.38.177.192/routeur/">Routeur<span class="mark closed">+</span></a>
   
 <ul class="sub-menu">
-<li class=""><a href="http://51.38.177.192/routeur/1/">Chapter 1-1</a></li>
+<li class=""><a href="http://51.38.177.192/routeur/config/">Configuration</a></li>
 </ul>
+  
+</li>
+
+<li class=""><a href="http://51.38.177.192/switch/">Switch</a>
   
 </li>
 

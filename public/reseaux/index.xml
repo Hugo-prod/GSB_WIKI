@@ -13,8 +13,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>http://51.38.177.192/reseaux/adressage_ip_interface/</guid>
-      <description>Feuille GSheet: Lien
-   Périphérique IP Masque CIDR Gateway Port sortant Port entrant Périphérique Flux                ROUTER CISCO 192.168.10.2 255.255.255.252 /30  G0/0 ??? ??? ROUTER &amp;lt;-&amp;gt; WAN   ROUTER CISCO 192.168.11.1 255.255.255.252 /30  G0/1 ENO1 PROXMOX (PFSENSE) ROUTER &amp;lt;-&amp;gt; PROXMOX (PFSENSE)              PROXMOX (PFSENSE) 192.</description>
+      <description>Feuille GSheet: Lien</description>
     </item>
     
     <item>
