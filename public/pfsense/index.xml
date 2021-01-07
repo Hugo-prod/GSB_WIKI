@@ -7,5 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="http://51.38.177.192/pfsense/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation PfSense</title>
+      <link>http://51.38.177.192/pfsense/install/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/pfsense/install/</guid>
+      <description>Accepter:
+    Sélectionner Install:
+    Séléctionner la configuration de clavier French puis &amp;gt;&amp;gt;&amp;gt; Continue with fr.kbd keymap:
+    Sélectionner Auto (UFS):
+    Pfsense s&amp;rsquo;installe:
+    Sélectionner Yes si on souhaite apporter des modifications supplémentaires avant le reboot:
+    Faire les modifications souhaitées puis saisir exit pour reboot:
+    Sélectionner Reboot:</description>
+    </item>
+    
   </channel>
 </rss>

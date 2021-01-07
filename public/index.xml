@@ -102,6 +102,22 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     </item>
     
     <item>
+      <title>Installation PfSense</title>
+      <link>http://51.38.177.192/pfsense/install/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/pfsense/install/</guid>
+      <description>Accepter:
+    Sélectionner Install:
+    Séléctionner la configuration de clavier French puis &amp;gt;&amp;gt;&amp;gt; Continue with fr.kbd keymap:
+    Sélectionner Auto (UFS):
+    Pfsense s&amp;rsquo;installe:
+    Sélectionner Yes si on souhaite apporter des modifications supplémentaires avant le reboot:
+    Faire les modifications souhaitées puis saisir exit pour reboot:
+    Sélectionner Reboot:</description>
+    </item>
+    
+    <item>
       <title>Rechercher ...</title>
       <link>http://51.38.177.192/meta/search-shortcode/</link>
       <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
