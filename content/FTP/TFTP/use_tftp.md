@@ -6,6 +6,19 @@ weight: 10
 description: "Utilisation du serveur TFTP"
 ---
 
+
+- Push vers le serveur TFTP:
+```bash  
+copy running-config tftp://192.168.1.5
+```
+
+- Pull vers le serveur TFTP:
+```bash  
+copy tftp://192.168.1.5 running-config
+```
+
+---
+
 - Se connecter en TFTP:
 ```bash  
 tftp 192.168.1.5

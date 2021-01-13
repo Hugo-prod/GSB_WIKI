@@ -10,3 +10,4 @@ PfSense ID:
 - ID: `root`
 - PWD: `pfsense`
 
+Adresse: [http://192.168.1.1](http://192.168.1.1)

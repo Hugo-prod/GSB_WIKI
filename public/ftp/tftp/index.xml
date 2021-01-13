@@ -22,7 +22,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>http://51.38.177.192/ftp/tftp/use_tftp/</guid>
-      <description> Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
+      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5  Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config   Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
     </item>
     
   </channel>

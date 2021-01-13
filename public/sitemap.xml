@@ -108,8 +108,33 @@
   </url>
   
   <url>
+    <loc>http://51.38.177.192/windows_r16_ad_dns_dhcp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://51.38.177.192/pfsense/configuration_interface/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://51.38.177.192/pfsense/configuration_nat/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://51.38.177.192/tmp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

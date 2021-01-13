@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows R16 (AD/DNS/DHCP) on GSB WIKI</title>
+    <link>http://51.38.177.192/windows_r16_ad_dns_dhcp/</link>
+    <description>Recent content in Windows R16 (AD/DNS/DHCP) on GSB WIKI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="http://51.38.177.192/windows_r16_ad_dns_dhcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installer Active Directory &#43; DNS </title>
+      <link>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/</guid>
+      <description>Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
+    Suivant:
+    Installation basée sur un rôle ou une fonctionnalité:
+    Sélectionner le serveur puis suivant:
+    Sélectionner le rôle AD DS et DNS:
+    Suivant:
+    Suivant:
+    Suivant:     Installer:
+    L&amp;rsquo;installation est en cours:</description>
+    </item>
+    
+    <item>
+      <title>Installer DHCP</title>
+      <link>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/</guid>
+      <description>Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
+    Suivant:     Sélectionner le type d’installation Installation basée sur un rôle ou une fonctionnalité:     Selectionner le serveur puis suivant:     Sélectionner le rôle Serveur DHCP:     Valider avec Suivant:     Ici vous pouvez constater toutes les fonctionnalités disponnible, dans notre cas nous n&amp;rsquo;en avons besoin d&amp;rsquo;aucune, cliquez sur Suivant:     :warning: Rappel: votre serveur doit avoir une IP fixée !</description>
+    </item>
+    
+  </channel>
+</rss>

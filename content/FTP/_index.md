@@ -19,6 +19,15 @@ L'objectif de ce serveur "FTP" est de proposer un service de stockage pour:
 - PWD: `sio2020`
 - IP: `192.168.1.5`
 
+```Bash  
+# /etc/network/interfaces
+allow-hotplug enp0s3
+iface enp0s3 inet static
+    address 192.168.1.5 
+    netmask 255.255.255.0
+    gateway 192.168.1.1
+```
+
 ---  
 
 #### Documentation:  

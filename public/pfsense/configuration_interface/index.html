@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Configuration interface PfSense - GSB WIKI</title>
+<meta name="description" content="Configuration interface PfSense">
+<meta name="generator" content="Hugo 0.78.1" />
+<link href="http://51.38.177.192//index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="http://51.38.177.192/pfsense/configuration_interface/">
+<link rel="stylesheet" href="http://51.38.177.192/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="http://51.38.177.192/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script src="http://51.38.177.192/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="Configuration interface PfSense" />
+<meta property="og:description" content="Configuration interface PfSense" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://51.38.177.192/pfsense/configuration_interface/" />
+<meta property="og:image" content="http://51.38.177.192/images/og-image.png"/>
+<meta property="article:published_time" content="2017-10-17T15:26:15+00:00" />
+<meta property="article:modified_time" content="2017-10-17T15:26:15+00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://51.38.177.192/images/og-image.png"/>
+
+<meta name="twitter:title" content="Configuration interface PfSense"/>
+<meta name="twitter:description" content="Configuration interface PfSense"/>
+<meta itemprop="name" content="Configuration interface PfSense">
+<meta itemprop="description" content="Configuration interface PfSense">
+<meta itemprop="datePublished" content="2017-10-17T15:26:15+00:00" />
+<meta itemprop="dateModified" content="2017-10-17T15:26:15+00:00" />
+<meta itemprop="wordCount" content="157">
+<meta itemprop="image" content="http://51.38.177.192/images/og-image.png"/>
+
+
+
+<meta itemprop="keywords" content="" />
+</head>
+<body><div class="container"><header>
+<h1>GSB WIKI</h1><span class="version">Version 0.9.5</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">Wiki pour le projet GSB</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about/">About Hugo</a></li></ul>
+</nav>
+</div>
+<div class="content-container">
+<main><h1>Configuration interface PfSense</h1>
+<h4 id="configurer-les-interfaces">Configurer les interfaces:</h4>
+<ul>
+<li>Assigner l&rsquo;interface <strong>WAN</strong> <code>em0</code>:<br>
+<img src="/images/pfsense/configuration/assignation/00.PNG" alt="00"></li>
+</ul>
+<hr>
+<ul>
+<li>Selectionner l&rsquo;option <code>1</code>:<br>
+<img src="/images/pfsense/configuration/assignation/01.PNG" alt="01"></li>
+</ul>
+<hr>
+<ul>
+<li>Ne pas configurer de VLAN <code>n</code>:<br>
+<img src="/images/pfsense/configuration/assignation/02.PNG" alt="02"></li>
+</ul>
+<hr>
+<ul>
+<li><strong>WAN</strong> Selectionner l&rsquo;interface <code>em0</code>:<br>
+<img src="/images/pfsense/configuration/assignation/03.PNG" alt="03"></li>
+</ul>
+<hr>
+<ul>
+<li><strong>LAN</strong> Selectionner l&rsquo;interface <code>em1</code>:<br>
+<img src="/images/pfsense/configuration/assignation/04.PNG" alt="04"></li>
+</ul>
+<hr>
+<ul>
+<li>Appuyer sur <code>entrée</code> pour finir l&rsquo;assignation des interfaces <strong>WAN/LAN</strong></li>
+<li>Saisir <code>y</code> pour valider les assignations:<br>
+<img src="/images/pfsense/configuration/assignation/05.PNG" alt="05"></li>
+</ul>
+<hr>
+<ul>
+<li>La configuration se termine:<br>
+<img src="/images/pfsense/configuration/assignation/06.PNG" alt="06"></li>
+</ul>
+<hr>
+<h4 id="définir-les-adresses-ips">Définir les adresses IP&rsquo;s:</h4>
+<h5 id="définir-ladresse-ip-wan">Définir l&rsquo;adresse IP WAN:</h5>
+<pre><code>WAN:
+	IP: 192.168.11.2
+	MASK: 255.255.255.252
+</code></pre><ul>
+<li>Saisir <code>2</code> (Set interface(s) IP address):<br>
+<img src="/images/pfsense/configuration/ip/00.PNG" alt="00"></li>
+</ul>
+<hr>
+<ul>
+<li>Saisir <code>1</code> pour l&rsquo;interface <strong>WAN</strong>:<br>
+<img src="/images/pfsense/configuration/ip/01.PNG" alt="01"></li>
+</ul>
+<hr>
+<ul>
+<li>Saisir <code>n</code> pour définir l&rsquo;interface <strong>WAN</strong> en statique:<br>
+<img src="/images/pfsense/configuration/ip/02.PNG" alt="02"></li>
+</ul>
+<hr>
+<ul>
+<li>Saisir l&rsquo;IP <code>192.168.11.2</code>:<br>
+<img src="/images/pfsense/configuration/ip/03.PNG" alt="03"></li>
+</ul>
+<hr>
+<ul>
+<li>Saisir <code>30</code> pour le masque de sous réseau:<br>
+<img src="/images/pfsense/configuration/ip/04.PNG" alt="04"></li>
+</ul>
+<hr>
+<ul>
+<li>Appuyer sur <code>entrée</code></li>
+<li>Ne pas configurer en DHCP IPv6</li>
+<li>Ne pas configurer d&rsquo;adresse IPv6</li>
+<li>Choisir <code>n</code> pour ne pas rendre accessible le WebConfigurator depuis le WAN
+<img src="/images/pfsense/configuration/ip/05.PNG" alt="05"></li>
+</ul>
+<h5 id="définir-ladresse-ip-lan">Définir l&rsquo;adresse IP LAN:</h5>
+<pre><code>LAN:
+	IP: 192.168.1.1
+	MASK: 255.255.255.0
+</code></pre><ul>
+<li>Saisir <code>2</code> (Set interface(s) IP address)</li>
+<li>Saisir <code>2</code> pour l&rsquo;interface <strong>LAN</strong></li>
+<li>Saisir l&rsquo;IP <code>192.168.1.1</code></li>
+<li>Saisir <code>24</code> pour le masque de sous réseau
+<img src="/images/pfsense/configuration/ip/06.PNG" alt="06"></li>
+</ul>
+<hr>
+<ul>
+<li>Ne pas définir de GW</li>
+<li>Ne pas définir d&rsquo;IPv6</li>
+<li>Ne pas activer le DHCP
+<img src="/images/pfsense/configuration/ip/07.PNG" alt="07"></li>
+</ul>
+<div class="edit-meta">
+Last updated on 17 Oct 2017
+
+
+<br>
+Published on 17 Oct 2017
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/PfSense%5cconfiguration_interface.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="http://51.38.177.192/pfsense/install/" title="Installation PfSense"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Installation PfSense</a>
+<a class="nav nav-next" href="http://51.38.177.192/pfsense/configuration_nat/" title="Configuration nat PfSense">Next - Configuration nat PfSense <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="slide-menu">
+<ul>
+<li class=""><a href="http://51.38.177.192/">Home</a></li>
+
+<li class=" has-sub-menu"><a href="http://51.38.177.192/meta/">Meta<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://51.38.177.192/meta/custom-shortcodes/">Custom Shortcodes</a></li>
+<li class=""><a href="http://51.38.177.192/meta/table-of-contents/">Table of Contents</a></li>
+<li class=""><a href="http://51.38.177.192/meta/search-shortcode/">Rechercher ...</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://51.38.177.192/reseaux/">Réseaux (Plan/Vlan/Topologie...)<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://51.38.177.192/reseaux/adressage_ip_interface/">Adressage IP/Interface</a></li>
+<li class=""><a href="http://51.38.177.192/reseaux/vlan/">VLANs</a></li>
+<li class=""><a href="http://51.38.177.192/reseaux/topologie_physique/">Topologie physique</a></li>
+<li class=""><a href="http://51.38.177.192/reseaux/topologie_logique/">Topologie logique</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://51.38.177.192/ftp/">Serveur FTP (sFTP &#43; TFTP)<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+
+<li class=" has-sub-menu"><a href="http://51.38.177.192/ftp/sftp/">Serveur sFTP<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://51.38.177.192/ftp/sftp/install_sftp/">Installation du serveur sFTP</a></li>
+<li class=""><a href="http://51.38.177.192/ftp/sftp/use_sftp/">Utilisation du serveur sFTP</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://51.38.177.192/ftp/tftp/">Serveur TFTP<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://51.38.177.192/ftp/tftp/install_tftp/">Installation du serveur TFTP</a></li>
+<li class=""><a href="http://51.38.177.192/ftp/tftp/use_tftp/">Utilisation du serveur TFTP</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+
+<li class=""><a href="http://51.38.177.192/proxmox/">Proxmox</a>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://51.38.177.192/routeur/">Routeur<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://51.38.177.192/routeur/config/">Configuration</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="http://51.38.177.192/switch/">Switch</a>
+  
+</li>
+
+<li class=""><a href="http://51.38.177.192/wifi/">WiFi</a>
+  
+</li>
+
+<li class="parent has-sub-menu"><a href="http://51.38.177.192/pfsense/">PfSense<span class="mark opened">-</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://51.38.177.192/pfsense/install/">Installation PfSense</a></li>
+<li class="active"><a href="http://51.38.177.192/pfsense/configuration_interface/">Configuration interface PfSense</a></li>
+<li class=""><a href="http://51.38.177.192/pfsense/configuration_nat/">Configuration nat PfSense</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://51.38.177.192/windows_r16_ad_dns_dhcp/">Windows R16 (AD/DNS/DHCP)<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/">Installer Active Directory &#43; DNS </a></li>
+<li class=""><a href="http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/">Installer DHCP</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="http://51.38.177.192/tmp/">/tmp/</a>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

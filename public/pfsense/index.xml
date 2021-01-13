@@ -23,5 +23,34 @@
     Sélectionner Reboot:</description>
     </item>
     
+    <item>
+      <title>Configuration interface PfSense</title>
+      <link>http://51.38.177.192/pfsense/configuration_interface/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/pfsense/configuration_interface/</guid>
+      <description>Configurer les interfaces:  Assigner l&amp;rsquo;interface WAN em0:
+    Selectionner l&amp;rsquo;option 1:
+    Ne pas configurer de VLAN n:
+    WAN Selectionner l&amp;rsquo;interface em0:
+    LAN Selectionner l&amp;rsquo;interface em1:
+    Appuyer sur entrée pour finir l&amp;rsquo;assignation des interfaces WAN/LAN Saisir y pour valider les assignations:
+    La configuration se termine:
+   Définir les adresses IP&amp;rsquo;s: Définir l&amp;rsquo;adresse IP WAN: WAN:IP: 192.</description>
+    </item>
+    
+    <item>
+      <title>Configuration nat PfSense</title>
+      <link>http://51.38.177.192/pfsense/configuration_nat/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/pfsense/configuration_nat/</guid>
+      <description> Dans Firewall/NAT/Outbound Choisir le Manual Outbound     Dans Mappings, cliquer sur Add:
+    Configurer le NAT:
+    Créer une passerelle par défaut pour WAN:
+    Gateway actives:
+  </description>
+    </item>
+    
   </channel>
 </rss>

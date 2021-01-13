@@ -71,7 +71,7 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>http://51.38.177.192/ftp/tftp/use_tftp/</guid>
-      <description> Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
+      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5  Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config   Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
     </item>
     
     <item>
@@ -115,6 +115,62 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     Sélectionner Yes si on souhaite apporter des modifications supplémentaires avant le reboot:
     Faire les modifications souhaitées puis saisir exit pour reboot:
     Sélectionner Reboot:</description>
+    </item>
+    
+    <item>
+      <title>Configuration interface PfSense</title>
+      <link>http://51.38.177.192/pfsense/configuration_interface/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/pfsense/configuration_interface/</guid>
+      <description>Configurer les interfaces:  Assigner l&amp;rsquo;interface WAN em0:
+    Selectionner l&amp;rsquo;option 1:
+    Ne pas configurer de VLAN n:
+    WAN Selectionner l&amp;rsquo;interface em0:
+    LAN Selectionner l&amp;rsquo;interface em1:
+    Appuyer sur entrée pour finir l&amp;rsquo;assignation des interfaces WAN/LAN Saisir y pour valider les assignations:
+    La configuration se termine:
+   Définir les adresses IP&amp;rsquo;s: Définir l&amp;rsquo;adresse IP WAN: WAN:IP: 192.</description>
+    </item>
+    
+    <item>
+      <title>Configuration nat PfSense</title>
+      <link>http://51.38.177.192/pfsense/configuration_nat/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/pfsense/configuration_nat/</guid>
+      <description> Dans Firewall/NAT/Outbound Choisir le Manual Outbound     Dans Mappings, cliquer sur Add:
+    Configurer le NAT:
+    Créer une passerelle par défaut pour WAN:
+    Gateway actives:
+  </description>
+    </item>
+    
+    <item>
+      <title>Installer Active Directory &#43; DNS </title>
+      <link>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/</guid>
+      <description>Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
+    Suivant:
+    Installation basée sur un rôle ou une fonctionnalité:
+    Sélectionner le serveur puis suivant:
+    Sélectionner le rôle AD DS et DNS:
+    Suivant:
+    Suivant:
+    Suivant:     Installer:
+    L&amp;rsquo;installation est en cours:</description>
+    </item>
+    
+    <item>
+      <title>Installer DHCP</title>
+      <link>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/</guid>
+      <description>Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
+    Suivant:     Sélectionner le type d’installation Installation basée sur un rôle ou une fonctionnalité:     Selectionner le serveur puis suivant:     Sélectionner le rôle Serveur DHCP:     Valider avec Suivant:     Ici vous pouvez constater toutes les fonctionnalités disponnible, dans notre cas nous n&amp;rsquo;en avons besoin d&amp;rsquo;aucune, cliquez sur Suivant:     :warning: Rappel: votre serveur doit avoir une IP fixée !</description>
     </item>
     
     <item>
