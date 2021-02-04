@@ -6,7 +6,8 @@ weight: 20
 description: "Proxmox"
 ---
 
-Proxmox ID:
+#### Proxmox ID:
+- [Proxmox- https://192.168.1.2:8006](https://192.168.1.2:8006/)
 - ID: `root`
 - PWD: `password`
 
