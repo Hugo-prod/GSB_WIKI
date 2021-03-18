@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>http://51.38.177.192/windowsserver/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://51.38.177.192/pfsense/install/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>

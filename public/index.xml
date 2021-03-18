@@ -6,7 +6,11 @@
     <description>Recent content in Home title on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="http://51.38.177.192/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://51.38.177.192/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Adressage IP/Interface</title>
       <link>http://51.38.177.192/reseaux/adressage_ip_interface/</link>
@@ -32,7 +36,7 @@
       
       <guid>http://51.38.177.192/ftp/sftp/install_sftp/</guid>
       <description>Construction d&amp;rsquo;un SFTP SSH JAIL
-  Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users  Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio  Pour ajouter des utilisateurs existant:  usermod -G sftp_users john  Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd  Paramètrer les permissions:  chown root /home/sio  Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/upload chown sio /home/sio/upload  Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-server Subsystem sftp internal-sftp Match Group sftp_users X11Forwarding no AllowTcpForwarding no ChrootDirectory %h ForceCommand internal-sftp  Redemarrer le service sshd:  systemctl restart sshd </description>
+  Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio Pour ajouter des utilisateurs existant:  usermod -G sftp_users john Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd Paramètrer les permissions:  chown root /home/sio Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/uploadchown sio /home/sio/upload Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-serverSubsystem sftp internal-sftpMatch Group sftp_usersX11Forwarding noAllowTcpForwarding noChrootDirectory %hForceCommand internal-sftp Redemarrer le service sshd:  systemctl restart sshd </description>
     </item>
     
     <item>
@@ -41,7 +45,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>http://51.38.177.192/ftp/tftp/install_tftp/</guid>
-      <description> Installation du package tftpd-hpa:  sudo apt-get install tftpd-hpa  Fichier de configuration /etc/default/tftpd-hpa:  # /etc/default/tftpd-hpa TFTP_USERNAME=&amp;#34;tftp&amp;#34; TFTP_DIRECTORY=&amp;#34;/home/sio/upload/tftp/&amp;#34; TFTP_ADDRESS=&amp;#34;:69&amp;#34; TFTP_OPTIONS=&amp;#34;--secure --create&amp;#34;  Créer le dossier /home/sio/upload/tftp/:  mkdir /home/sio/upload/tftp/  Changer le propriétaire et le groupe du dossier:  cd /home/sio/upload/ chown tftp:tftp tftp/  relancer le service (Charger la nouvelle conf):  systemctl restart tftpd-hpa </description>
+      <description> Installation du package tftpd-hpa:  sudo apt-get install tftpd-hpa Fichier de configuration /etc/default/tftpd-hpa:  # /etc/default/tftpd-hpaTFTP_USERNAME=&amp;#34;tftp&amp;#34;TFTP_DIRECTORY=&amp;#34;/home/sio/upload/tftp/&amp;#34;TFTP_ADDRESS=&amp;#34;:69&amp;#34;TFTP_OPTIONS=&amp;#34;--secure --create&amp;#34; Créer le dossier /home/sio/upload/tftp/:  mkdir /home/sio/upload/tftp/ Changer le propriétaire et le groupe du dossier:  cd /home/sio/upload/chown tftp:tftp tftp/ relancer le service (Charger la nouvelle conf):  systemctl restart tftpd-hpa</description>
     </item>
     
     <item>
@@ -71,7 +75,7 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>http://51.38.177.192/ftp/tftp/use_tftp/</guid>
-      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5  Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config   Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
+      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5 Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config  Se connecter en TFTP:  tftp 192.168.1.5 Activer le mode verbeux:  tftp&amp;gt; verbose Téléverser un fichier:  tftp&amp;gt; put cisco.cfg Télécharger un fichier:  tftp&amp;gt; get cisco.cfg Quitter la session TFTP:  tftp&amp;gt; quit</description>
     </item>
     
     <item>

@@ -1,5 +1,5 @@
 #baseURL = "localhost:1313"
-baseurl = "http://51.38.177.192/"
+baseurl = "http://gsb.hugo.grosot.fr/"
 languageCode = "fr"
 title = "GSB WIKI"
 theme = "hugo-theme-techdoc"

@@ -6,6 +6,10 @@
     <description>Recent content in /tmp/ on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="http://51.38.177.192/tmp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://51.38.177.192/tmp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

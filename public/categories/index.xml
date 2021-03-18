@@ -5,6 +5,10 @@
     <link>http://51.38.177.192/categories/</link>
     <description>Recent content in Categories on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="http://51.38.177.192/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="http://51.38.177.192/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

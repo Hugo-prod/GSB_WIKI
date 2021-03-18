@@ -5,6 +5,10 @@
     <link>http://51.38.177.192/tags/</link>
     <description>Recent content in Tags on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="http://51.38.177.192/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="http://51.38.177.192/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
