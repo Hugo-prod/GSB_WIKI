@@ -2,48 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Réseaux (Plan/Vlan/Topologie...) on GSB WIKI</title>
-    <link>http://gsb.hugo.grosot.fr/reseaux/</link>
+    <link>https://gsb.hugo.grosot.fr/reseaux/</link>
     <description>Recent content in Réseaux (Plan/Vlan/Topologie...) on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
-    
-	<atom:link href="http://gsb.hugo.grosot.fr/reseaux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/reseaux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adressage IP/Interface</title>
-      <link>http://gsb.hugo.grosot.fr/reseaux/adressage_ip_interface/</link>
+      <link>https://gsb.hugo.grosot.fr/reseaux/adressage_ip_interface/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://gsb.hugo.grosot.fr/reseaux/adressage_ip_interface/</guid>
+      <guid>https://gsb.hugo.grosot.fr/reseaux/adressage_ip_interface/</guid>
       <description>Feuille GSheet: Lien</description>
     </item>
     
     <item>
       <title>VLANs</title>
-      <link>http://gsb.hugo.grosot.fr/reseaux/vlan/</link>
+      <link>https://gsb.hugo.grosot.fr/reseaux/vlan/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://gsb.hugo.grosot.fr/reseaux/vlan/</guid>
+      <guid>https://gsb.hugo.grosot.fr/reseaux/vlan/</guid>
       <description>N° VLAN VLAN NAME SERVICE(s) ADRESSAGE IP CIDR MASQUE     10 XXXXXXXXX RESERVEE: Arrivée réseau salle SIO XXXXXXXXXXXX XX XXXXXXXXXXXXX   20 RESEAU_SYSTEME Réseau &amp;amp; Sytème 192.168.20.0 24 255.255.255.0   30 DIRECTION_DSI Direction / DSI 192.168.30.0 24 255.255.255.0   40 RH_C_J_SA RH / Compta / Juridique / Secrétariat Administratif 192.168.40.0 24 255.255.255.0   50 COMMUNICATION_REDACT Communication / Rédaction 192.168.50.0 24 255.</description>
     </item>
     
     <item>
       <title>Topologie physique</title>
-      <link>http://gsb.hugo.grosot.fr/reseaux/topologie_physique/</link>
+      <link>https://gsb.hugo.grosot.fr/reseaux/topologie_physique/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://gsb.hugo.grosot.fr/reseaux/topologie_physique/</guid>
+      <guid>https://gsb.hugo.grosot.fr/reseaux/topologie_physique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Topologie logique</title>
-      <link>http://gsb.hugo.grosot.fr/reseaux/topologie_logique/</link>
+      <link>https://gsb.hugo.grosot.fr/reseaux/topologie_logique/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://gsb.hugo.grosot.fr/reseaux/topologie_logique/</guid>
+      <guid>https://gsb.hugo.grosot.fr/reseaux/topologie_logique/</guid>
       <description></description>
     </item>
     
