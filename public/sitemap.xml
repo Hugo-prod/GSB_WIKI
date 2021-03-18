@@ -33,6 +33,16 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/routeur/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/routeur/rtrout/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/ftp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -48,6 +58,11 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/switch/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/meta/table-of-contents/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -59,6 +74,11 @@
   
   <url>
     <loc>https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/ftp/tftp/tftp_portforwarding/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
@@ -83,22 +103,12 @@
   </url>
   
   <url>
-    <loc>https://gsb.hugo.grosot.fr/routeur/</loc>
-    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gsb.hugo.grosot.fr/switch/</loc>
+    <loc>https://gsb.hugo.grosot.fr/switch/mutlab/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gsb.hugo.grosot.fr/wifi/</loc>
-    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gsb.hugo.grosot.fr/windowsserver/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
@@ -148,12 +158,17 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/glpi/</loc>
+    <lastmod>2019-10-26T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gsb.hugo.grosot.fr/routeur/config/</loc>
+    <loc>https://gsb.hugo.grosot.fr/routeur/rtrout/config/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   

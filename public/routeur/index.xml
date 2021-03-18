@@ -7,14 +7,5 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/routeur/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Configuration</title>
-      <link>https://gsb.hugo.grosot.fr/routeur/config/</link>
-      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
-      
-      <guid>https://gsb.hugo.grosot.fr/routeur/config/</guid>
-      <description>TODO: Mettre la configuration du routeur </description>
-    </item>
-    
   </channel>
 </rss>

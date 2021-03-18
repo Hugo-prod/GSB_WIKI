@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home title on GSB WIKI</title>
+    <title>Homme on GSB WIKI</title>
     <link>https://gsb.hugo.grosot.fr/</link>
-    <description>Recent content in Home title on GSB WIKI</description>
+    <description>Recent content in Homme on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/index.xml" rel="self" type="application/rss+xml" />
@@ -72,6 +72,18 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
       
       <guid>https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/</guid>
       <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5  Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config   Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
+    </item>
+    
+    <item>
+      <title>Port Forwarding pour serveur TFTP</title>
+      <link>https://gsb.hugo.grosot.fr/ftp/tftp/tftp_portforwarding/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://gsb.hugo.grosot.fr/ftp/tftp/tftp_portforwarding/</guid>
+      <description>Objectif: Récupérer la configuration du routeur RTROUT depuis le réseau local qui lui est NATé par le PfSense
+ Créer la route depuis le routeur RTROUT:  192.168.1.0 255.255.255.0 192.168.11.2   Créer la règle de Port Forwarding sur l&amp;rsquo;interface WAN pour autoriser le protocole TFTP qui utilise le port 69:
+  Voici la configuration:
+  Désactiver le blocage des adresses IP publique   </description>
     </item>
     
     <item>
@@ -185,10 +197,10 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
     
     <item>
       <title>Configuration</title>
-      <link>https://gsb.hugo.grosot.fr/routeur/config/</link>
+      <link>https://gsb.hugo.grosot.fr/routeur/rtrout/config/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>https://gsb.hugo.grosot.fr/routeur/config/</guid>
+      <guid>https://gsb.hugo.grosot.fr/routeur/rtrout/config/</guid>
       <description>TODO: Mettre la configuration du routeur </description>
     </item>
     

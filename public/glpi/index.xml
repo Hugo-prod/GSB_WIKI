@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GLPI on GSB WIKI</title>
+    <link>https://gsb.hugo.grosot.fr/glpi/</link>
+    <description>Recent content in GLPI on GSB WIKI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/glpi/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
