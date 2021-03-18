@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PfSense on GSB WIKI</title>
-    <link>http://51.38.177.192/pfsense/</link>
+    <link>http://gsb.hugo.grosot.fr/pfsense/</link>
     <description>Recent content in PfSense on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
     
-	<atom:link href="http://51.38.177.192/pfsense/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gsb.hugo.grosot.fr/pfsense/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installation PfSense</title>
-      <link>http://51.38.177.192/pfsense/install/</link>
+      <link>http://gsb.hugo.grosot.fr/pfsense/install/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/pfsense/install/</guid>
+      <guid>http://gsb.hugo.grosot.fr/pfsense/install/</guid>
       <description>Accepter:
     Sélectionner Install:
     Séléctionner la configuration de clavier French puis &amp;gt;&amp;gt;&amp;gt; Continue with fr.kbd keymap:
@@ -29,10 +29,10 @@
     
     <item>
       <title>Configuration interface PfSense</title>
-      <link>http://51.38.177.192/pfsense/configuration_interface/</link>
+      <link>http://gsb.hugo.grosot.fr/pfsense/configuration_interface/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/pfsense/configuration_interface/</guid>
+      <guid>http://gsb.hugo.grosot.fr/pfsense/configuration_interface/</guid>
       <description>Configurer les interfaces:  Assigner l&amp;rsquo;interface WAN em0:
     Selectionner l&amp;rsquo;option 1:
     Ne pas configurer de VLAN n:
@@ -45,10 +45,10 @@
     
     <item>
       <title>Configuration nat PfSense</title>
-      <link>http://51.38.177.192/pfsense/configuration_nat/</link>
+      <link>http://gsb.hugo.grosot.fr/pfsense/configuration_nat/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/pfsense/configuration_nat/</guid>
+      <guid>http://gsb.hugo.grosot.fr/pfsense/configuration_nat/</guid>
       <description> Dans Firewall/NAT/Outbound Choisir le Manual Outbound     Dans Mappings, cliquer sur Add:
     Configurer le NAT:
     Créer une passerelle par défaut pour WAN:

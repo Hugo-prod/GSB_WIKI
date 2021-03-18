@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Routeur on GSB WIKI</title>
-    <link>http://51.38.177.192/routeur/</link>
+    <link>http://gsb.hugo.grosot.fr/routeur/</link>
     <description>Recent content in Routeur on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
     
-	<atom:link href="http://51.38.177.192/routeur/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gsb.hugo.grosot.fr/routeur/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Configuration</title>
-      <link>http://51.38.177.192/routeur/config/</link>
+      <link>http://gsb.hugo.grosot.fr/routeur/config/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/routeur/config/</guid>
+      <guid>http://gsb.hugo.grosot.fr/routeur/config/</guid>
       <description>TODO: Mettre la configuration du routeur </description>
     </item>
     

@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home title on GSB WIKI</title>
-    <link>http://51.38.177.192/</link>
+    <link>http://gsb.hugo.grosot.fr/</link>
     <description>Recent content in Home title on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
     
-	<atom:link href="http://51.38.177.192/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gsb.hugo.grosot.fr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adressage IP/Interface</title>
-      <link>http://51.38.177.192/reseaux/adressage_ip_interface/</link>
+      <link>http://gsb.hugo.grosot.fr/reseaux/adressage_ip_interface/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/reseaux/adressage_ip_interface/</guid>
+      <guid>http://gsb.hugo.grosot.fr/reseaux/adressage_ip_interface/</guid>
       <description>Feuille GSheet: Lien</description>
     </item>
     
     <item>
       <title>Custom Shortcodes</title>
-      <link>http://51.38.177.192/meta/custom-shortcodes/</link>
+      <link>http://gsb.hugo.grosot.fr/meta/custom-shortcodes/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/meta/custom-shortcodes/</guid>
+      <guid>http://gsb.hugo.grosot.fr/meta/custom-shortcodes/</guid>
       <description>Code highlight with clipboard sample/custom-shortcodes.html Copy{{&amp;lt; highlight html &amp;gt;}} &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt; {{&amp;lt; /highlight &amp;gt;}}    Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Installation du serveur sFTP</title>
-      <link>http://51.38.177.192/ftp/sftp/install_sftp/</link>
+      <link>http://gsb.hugo.grosot.fr/ftp/sftp/install_sftp/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/ftp/sftp/install_sftp/</guid>
+      <guid>http://gsb.hugo.grosot.fr/ftp/sftp/install_sftp/</guid>
       <description>Construction d&amp;rsquo;un SFTP SSH JAIL
   Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio Pour ajouter des utilisateurs existant:  usermod -G sftp_users john Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd Paramètrer les permissions:  chown root /home/sio Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/uploadchown sio /home/sio/upload Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-serverSubsystem sftp internal-sftpMatch Group sftp_usersX11Forwarding noAllowTcpForwarding noChrootDirectory %hForceCommand internal-sftp Redemarrer le service sshd:  systemctl restart sshd </description>
     </item>
     
     <item>
       <title>Installation du serveur TFTP</title>
-      <link>http://51.38.177.192/ftp/tftp/install_tftp/</link>
+      <link>http://gsb.hugo.grosot.fr/ftp/tftp/install_tftp/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/ftp/tftp/install_tftp/</guid>
+      <guid>http://gsb.hugo.grosot.fr/ftp/tftp/install_tftp/</guid>
       <description> Installation du package tftpd-hpa:  sudo apt-get install tftpd-hpa Fichier de configuration /etc/default/tftpd-hpa:  # /etc/default/tftpd-hpaTFTP_USERNAME=&amp;#34;tftp&amp;#34;TFTP_DIRECTORY=&amp;#34;/home/sio/upload/tftp/&amp;#34;TFTP_ADDRESS=&amp;#34;:69&amp;#34;TFTP_OPTIONS=&amp;#34;--secure --create&amp;#34; Créer le dossier /home/sio/upload/tftp/:  mkdir /home/sio/upload/tftp/ Changer le propriétaire et le groupe du dossier:  cd /home/sio/upload/chown tftp:tftp tftp/ relancer le service (Charger la nouvelle conf):  systemctl restart tftpd-hpa</description>
     </item>
     
     <item>
       <title>Table of Contents</title>
-      <link>http://51.38.177.192/meta/table-of-contents/</link>
+      <link>http://gsb.hugo.grosot.fr/meta/table-of-contents/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/meta/table-of-contents/</guid>
+      <guid>http://gsb.hugo.grosot.fr/meta/table-of-contents/</guid>
       <description>Note The TableOfContents field with true in your content’s front matter will render a table of contents.
 TableOfContents: true Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
   Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
@@ -61,56 +61,56 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     
     <item>
       <title>Utilisation du serveur sFTP</title>
-      <link>http://51.38.177.192/ftp/sftp/use_sftp/</link>
+      <link>http://gsb.hugo.grosot.fr/ftp/sftp/use_sftp/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/ftp/sftp/use_sftp/</guid>
+      <guid>http://gsb.hugo.grosot.fr/ftp/sftp/use_sftp/</guid>
       <description>Connexion au serveur: Nous pouvons accéder au sFTP via FileZilla avec les identifiants:
  IP: 192.168.1.5 ID: sio PWD: sio2020  Dossier de dépôt: Le dossier de dépôt de fichier est home/sio/upload</description>
     </item>
     
     <item>
       <title>Utilisation du serveur TFTP</title>
-      <link>http://51.38.177.192/ftp/tftp/use_tftp/</link>
+      <link>http://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/ftp/tftp/use_tftp/</guid>
+      <guid>http://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/</guid>
       <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5 Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config  Se connecter en TFTP:  tftp 192.168.1.5 Activer le mode verbeux:  tftp&amp;gt; verbose Téléverser un fichier:  tftp&amp;gt; put cisco.cfg Télécharger un fichier:  tftp&amp;gt; get cisco.cfg Quitter la session TFTP:  tftp&amp;gt; quit</description>
     </item>
     
     <item>
       <title>VLANs</title>
-      <link>http://51.38.177.192/reseaux/vlan/</link>
+      <link>http://gsb.hugo.grosot.fr/reseaux/vlan/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/reseaux/vlan/</guid>
+      <guid>http://gsb.hugo.grosot.fr/reseaux/vlan/</guid>
       <description>N° VLAN VLAN NAME SERVICE(s) ADRESSAGE IP CIDR MASQUE     10 XXXXXXXXX RESERVEE: Arrivée réseau salle SIO XXXXXXXXXXXX XX XXXXXXXXXXXXX   20 RESEAU_SYSTEME Réseau &amp;amp; Sytème 192.168.20.0 24 255.255.255.0   30 DIRECTION_DSI Direction / DSI 192.168.30.0 24 255.255.255.0   40 RH_C_J_SA RH / Compta / Juridique / Secrétariat Administratif 192.168.40.0 24 255.255.255.0   50 COMMUNICATION_REDACT Communication / Rédaction 192.168.50.0 24 255.</description>
     </item>
     
     <item>
       <title>Topologie physique</title>
-      <link>http://51.38.177.192/reseaux/topologie_physique/</link>
+      <link>http://gsb.hugo.grosot.fr/reseaux/topologie_physique/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/reseaux/topologie_physique/</guid>
+      <guid>http://gsb.hugo.grosot.fr/reseaux/topologie_physique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Topologie logique</title>
-      <link>http://51.38.177.192/reseaux/topologie_logique/</link>
+      <link>http://gsb.hugo.grosot.fr/reseaux/topologie_logique/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/reseaux/topologie_logique/</guid>
+      <guid>http://gsb.hugo.grosot.fr/reseaux/topologie_logique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Installation PfSense</title>
-      <link>http://51.38.177.192/pfsense/install/</link>
+      <link>http://gsb.hugo.grosot.fr/pfsense/install/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/pfsense/install/</guid>
+      <guid>http://gsb.hugo.grosot.fr/pfsense/install/</guid>
       <description>Accepter:
     Sélectionner Install:
     Séléctionner la configuration de clavier French puis &amp;gt;&amp;gt;&amp;gt; Continue with fr.kbd keymap:
@@ -123,10 +123,10 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     
     <item>
       <title>Configuration interface PfSense</title>
-      <link>http://51.38.177.192/pfsense/configuration_interface/</link>
+      <link>http://gsb.hugo.grosot.fr/pfsense/configuration_interface/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/pfsense/configuration_interface/</guid>
+      <guid>http://gsb.hugo.grosot.fr/pfsense/configuration_interface/</guid>
       <description>Configurer les interfaces:  Assigner l&amp;rsquo;interface WAN em0:
     Selectionner l&amp;rsquo;option 1:
     Ne pas configurer de VLAN n:
@@ -139,10 +139,10 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     
     <item>
       <title>Configuration nat PfSense</title>
-      <link>http://51.38.177.192/pfsense/configuration_nat/</link>
+      <link>http://gsb.hugo.grosot.fr/pfsense/configuration_nat/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/pfsense/configuration_nat/</guid>
+      <guid>http://gsb.hugo.grosot.fr/pfsense/configuration_nat/</guid>
       <description> Dans Firewall/NAT/Outbound Choisir le Manual Outbound     Dans Mappings, cliquer sur Add:
     Configurer le NAT:
     Créer une passerelle par défaut pour WAN:
@@ -152,10 +152,10 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     
     <item>
       <title>Installer Active Directory &#43; DNS </title>
-      <link>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/</link>
+      <link>http://gsb.hugo.grosot.fr/windows_r16_ad_dns_dhcp/install_ad_dns/</link>
       <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_ad_dns/</guid>
+      <guid>http://gsb.hugo.grosot.fr/windows_r16_ad_dns_dhcp/install_ad_dns/</guid>
       <description>Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
     Suivant:
     Installation basée sur un rôle ou une fonctionnalité:
@@ -169,39 +169,39 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
     
     <item>
       <title>Installer DHCP</title>
-      <link>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/</link>
+      <link>http://gsb.hugo.grosot.fr/windows_r16_ad_dns_dhcp/install_dhcp/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://51.38.177.192/windows_r16_ad_dns_dhcp/install_dhcp/</guid>
+      <guid>http://gsb.hugo.grosot.fr/windows_r16_ad_dns_dhcp/install_dhcp/</guid>
       <description>Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
     Suivant:     Sélectionner le type d’installation Installation basée sur un rôle ou une fonctionnalité:     Selectionner le serveur puis suivant:     Sélectionner le rôle Serveur DHCP:     Valider avec Suivant:     Ici vous pouvez constater toutes les fonctionnalités disponnible, dans notre cas nous n&amp;rsquo;en avons besoin d&amp;rsquo;aucune, cliquez sur Suivant:     :warning: Rappel: votre serveur doit avoir une IP fixée !</description>
     </item>
     
     <item>
       <title>Rechercher ...</title>
-      <link>http://51.38.177.192/meta/search-shortcode/</link>
+      <link>http://gsb.hugo.grosot.fr/meta/search-shortcode/</link>
       <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
       
-      <guid>http://51.38.177.192/meta/search-shortcode/</guid>
+      <guid>http://gsb.hugo.grosot.fr/meta/search-shortcode/</guid>
       <description>var search = instantsearch({ indexName: &#39;hugo-demo-techdoc&#39;, searchClient: algoliasearch( &#39;7W4SAN4PLK&#39;, &#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39; ), routing: true, }); const renderHits = (renderOptions, isFirstRender) = { const { hits } = renderOptions; document.querySelector(&#39;#hits&#39;).innerHTML = ` ${hits .map( item = `${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ? item.description : item.content.length  200 ? item.content.substring( 0, 200 ) + &#39;...&#39; : item.content }
 ` ) .join(&#39;&#39;)} `; }; const customHits = instantsearch.</description>
     </item>
     
     <item>
       <title>Configuration</title>
-      <link>http://51.38.177.192/routeur/config/</link>
+      <link>http://gsb.hugo.grosot.fr/routeur/config/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>http://51.38.177.192/routeur/config/</guid>
+      <guid>http://gsb.hugo.grosot.fr/routeur/config/</guid>
       <description>TODO: Mettre la configuration du routeur </description>
     </item>
     
     <item>
       <title>About Hugo</title>
-      <link>http://51.38.177.192/about/</link>
+      <link>http://gsb.hugo.grosot.fr/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://51.38.177.192/about/</guid>
+      <guid>http://gsb.hugo.grosot.fr/about/</guid>
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>

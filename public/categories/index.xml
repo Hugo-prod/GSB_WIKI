@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on GSB WIKI</title>
-    <link>http://51.38.177.192/categories/</link>
+    <link>http://gsb.hugo.grosot.fr/categories/</link>
     <description>Recent content in Categories on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     
-	<atom:link href="http://51.38.177.192/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gsb.hugo.grosot.fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
