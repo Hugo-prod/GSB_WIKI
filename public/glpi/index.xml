@@ -7,5 +7,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/glpi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Proxmox: Création VM GLPI</title>
+      <link>https://gsb.hugo.grosot.fr/glpi/creation_vm/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://gsb.hugo.grosot.fr/glpi/creation_vm/</guid>
+      <description>  Nommage de la VM:
+  Selection du système d&amp;rsquo;exploitation (Debian):   Paramètre système par défaut:   Type et taille du disque dur:   CPU:
+  Taille RAM:
+  Réseau:
+  Confirmation:
+  </description>
+    </item>
+    
+    <item>
+      <title>2. Installation et configuration serveur, base de données</title>
+      <link>https://gsb.hugo.grosot.fr/glpi/installation_serveur_db/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://gsb.hugo.grosot.fr/glpi/installation_serveur_db/</guid>
+      <description>Installation des composants LAMP et dépendances pour PHP pour GLPI:  Installation des composants LAMP:  apt install apache2 php libapache2-mod-php mariadb-server  Installer toutes les dépendances que nous pourrions avoir besoin pour GLPI:  apt install php-mysqli php-mbstring php-curl php-gd php-simplexml php-intl php-ldap php-apcu php-xmlrpc php-cas php-zip php-bz2 php-ldap php-imap  Sécurisation de la DB  Sécuriser la DB:  mysql_secure_installation   Entrer le password root:
+  Changer le password root:</description>
+    </item>
+    
+    <item>
+      <title>3. Installation et configuration GLPI</title>
+      <link>https://gsb.hugo.grosot.fr/glpi/installation_glpi/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://gsb.hugo.grosot.fr/glpi/installation_glpi/</guid>
+      <description>Télécharger GLPI:  Télécharger GLPI:  cd /tmp wget https://github.com/glpi-project/glpi/releases/download/9.5.2/glpi-9.5.2.tgz  Décompresser GLPI:  tar -xvzf glpi-9.5.2.tgz  Créer le dossier GLPI:  mkdir /var/www/glpi  Copier le contenu du dossier GLPI dans /var/www/glpi:  cp -r glpi/* /var/www/glpi  Changer les droits en www-data:  chown -R www-data /var/www/glpi Installation GLPI:   Selection du langage:   Accepter les termes de la licence:   Installation de GLPI:   Pré-requis et dependances pour l&amp;rsquo;installation de GLPI:   Paramètres de connexion à la base de données:   Selection de la base de données (créée en amont):   Initialisation:   La base de données a bien été initialisée:   Ne pas envoyer des statistique d&amp;rsquo;usage:   Installation terminée et identifiants par defaut:</description>
+    </item>
+    
+    <item>
+      <title>4. Installer FusionInventory</title>
+      <link>https://gsb.hugo.grosot.fr/glpi/installation_fusioninventory/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://gsb.hugo.grosot.fr/glpi/installation_fusioninventory/</guid>
+      <description>Télécharger FusionInventory (pour GLPI 9.5):  Télécharger FusionInventory:  wget https://github.com/fusioninventory/fusioninventory-for-glpi/archive/refs/tags/glpi9.5+2.0.zip  Décompresser FusionInventory:  unzip glpi9.5+2.0.zip  Copier FusionInventory dans le repertoire de /var/www/glpi/plugins/:  cp -r fusioninventory-for-glpi9.5-2.0/ /var/www/glpi/plugins/  Changer les droits du dossier:  chown -R www-data fusioninventory-for-glpi9.5-2.0/  Renommer le dossier:  mv fusioninventory-for-glpi9.5-2.0/ fusioninventory Installer FusionInventory:   Aller dans les plugins:   Cliquer sur installer:
+  Installation en cours:   Activer le plugin:   Le plugin est maintenant activé:</description>
+    </item>
+    
   </channel>
 </rss>

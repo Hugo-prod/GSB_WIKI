@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/glpi/creation_vm/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/reseaux/adressage_ip_interface/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -128,6 +133,11 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/glpi/installation_serveur_db/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/proxmox/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -139,6 +149,11 @@
   
   <url>
     <loc>https://gsb.hugo.grosot.fr/wifi/configuration_wan/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/glpi/installation_glpi/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
@@ -159,6 +174,11 @@
   
   <url>
     <loc>https://gsb.hugo.grosot.fr/windows_r16_ad_dns_dhcp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/glpi/installation_fusioninventory/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
