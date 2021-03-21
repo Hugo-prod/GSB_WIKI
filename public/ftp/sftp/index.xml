@@ -6,7 +6,11 @@
     <description>Recent content in Serveur sFTP on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/ftp/sftp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://gsb.hugo.grosot.fr/ftp/sftp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Installation du serveur sFTP</title>
       <link>https://gsb.hugo.grosot.fr/ftp/sftp/install_sftp/</link>
@@ -14,7 +18,7 @@
       
       <guid>https://gsb.hugo.grosot.fr/ftp/sftp/install_sftp/</guid>
       <description>Construction d&amp;rsquo;un SFTP SSH JAIL
-  Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users  Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio  Pour ajouter des utilisateurs existant:  usermod -G sftp_users john  Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd  Paramètrer les permissions:  chown root /home/sio  Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/upload chown sio /home/sio/upload  Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-server Subsystem sftp internal-sftp Match Group sftp_users X11Forwarding no AllowTcpForwarding no ChrootDirectory %h ForceCommand internal-sftp  Redemarrer le service sshd:  systemctl restart sshd </description>
+  Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio Pour ajouter des utilisateurs existant:  usermod -G sftp_users john Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd Paramètrer les permissions:  chown root /home/sio Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/uploadchown sio /home/sio/upload Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-serverSubsystem sftp internal-sftpMatch Group sftp_usersX11Forwarding noAllowTcpForwarding noChrootDirectory %hForceCommand internal-sftp Redemarrer le service sshd:  systemctl restart sshd </description>
     </item>
     
     <item>

@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/ssh/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/meta/custom-shortcodes/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -98,6 +103,11 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/glpi/</loc>
+    <lastmod>2019-10-26T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/proxmox/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -138,7 +148,7 @@
   </url>
   
   <url>
-    <loc>https://gsb.hugo.grosot.fr/tmp/</loc>
+    <loc>https://gsb.hugo.grosot.fr/99_tmp/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
@@ -155,11 +165,6 @@
   <url>
     <loc>https://gsb.hugo.grosot.fr/meta/search-shortcode/</loc>
     <lastmod>2020-03-30T18:49:06+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gsb.hugo.grosot.fr/glpi/</loc>
-    <lastmod>2019-10-26T15:26:15+00:00</lastmod>
   </url>
   
   <url>

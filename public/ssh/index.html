@@ -3,11 +3,11 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>PfSense - GSB WIKI</title>
-<meta name="description" content="PfSense">
+<title>Configuration SSH - GSB WIKI</title>
+<meta name="description" content="Wiki pour le projet GSB">
 <meta name="generator" content="Hugo 0.68.3" />
 <link href="https://gsb.hugo.grosot.fr//index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://gsb.hugo.grosot.fr/pfsense/">
+<link rel="canonical" href="https://gsb.hugo.grosot.fr/ssh/">
 <link rel="stylesheet" href="https://gsb.hugo.grosot.fr/css/theme.min.css">
 <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link rel="stylesheet" href="https://gsb.hugo.grosot.fr/css/chroma.min.css">
@@ -17,19 +17,19 @@
 <script src="https://gsb.hugo.grosot.fr/js/bundle.js"></script><style>
 :root {}
 </style>
-<meta property="og:title" content="PfSense" />
-<meta property="og:description" content="PfSense" />
+<meta property="og:title" content="Configuration SSH" />
+<meta property="og:description" content="Wiki pour le projet GSB" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://gsb.hugo.grosot.fr/pfsense/" />
+<meta property="og:url" content="https://gsb.hugo.grosot.fr/ssh/" />
 <meta property="og:image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
 <meta property="og:updated_time" content="2017-10-17T15:26:15+00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
 
-<meta name="twitter:title" content="PfSense"/>
-<meta name="twitter:description" content="PfSense"/>
-<meta itemprop="name" content="PfSense">
-<meta itemprop="description" content="PfSense"></head>
+<meta name="twitter:title" content="Configuration SSH"/>
+<meta name="twitter:description" content="Wiki pour le projet GSB"/>
+<meta itemprop="name" content="Configuration SSH">
+<meta itemprop="description" content="Wiki pour le projet GSB"></head>
 <body><div class="container"><header>
 <h1>GSB WIKI</h1><span class="version">Version 0.9.5</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
 <p class="description">Wiki pour le projet GSB</p>
@@ -43,20 +43,47 @@
 </nav>
 </div>
 <div class="content-container">
-<main><h1>PfSense</h1><p>PfSense ID:</p>
-<ul>
-<li>ID: <code>root</code></li>
-<li>PWD: <code>pfsense</code></li>
+<main><h1>Configuration SSH</h1><ul>
+<li>Télécharger la clef privée: <a href="/SSH/gsb">GSB</a></li>
+<li>Télécharger la clef publique: <a href="/SSH/gsb.pub">GSB</a></li>
 </ul>
-<p>Adresse: <a href="http://192.168.1.1">http://192.168.1.1</a></p>
-<div class="edit-meta">
+<h4 id="voici-la-configuration-ssh-à-ajouter-dans-le-sshconfig">Voici la configuration SSH à ajouter dans le <code>~/.ssh/config</code>:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">###########################</span>
+<span style="color:#75715e">########### GSB ###########</span>
+<span style="color:#75715e">###########################</span>
+
+Host debian-ftp
+	Hostname 192.168.1.5
+	User root
+	IdentityFile ~/.ssh/gsb 
+
+Host glpi
+	Hostname 192.168.1.8
+	User root
+	IdentityFile ~/.ssh/gsb 
+
+Host proxmox
+	Hostname 192.168.1.2
+	User root
+	IdentityFile ~/.ssh/gsb 
+
+Host proxmox_backup
+	Hostname 192.168.1.6
+	User root
+	IdentityFile ~/.ssh/gsb 
+
+Host proxmox_vm_backup
+	Hostname 192.168.1.9
+	User root
+	IdentityFile ~/.ssh/gsb 
+</code></pre></div><div class="edit-meta">
 Last updated on 17 Oct 2017
 
 
 <br>
 Published on 17 Oct 2017
-<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/PfSense/_index.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gsb.hugo.grosot.fr/wifi/" title="WiFi"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - WiFi</a>
-<a class="nav nav-next" href="https://gsb.hugo.grosot.fr/pfsense/install/" title="Installation PfSense">Next - Installation PfSense <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/SSH/_index.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gsb.hugo.grosot.fr/reseaux/topologie_logique/" title="Topologie logique"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Topologie logique</a>
+<a class="nav nav-next" href="https://gsb.hugo.grosot.fr/routeur/" title="Routeur">Next - Routeur <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -87,7 +114,7 @@ Published on 17 Oct 2017
   
 </li>
 
-<li class=""><a href="https://gsb.hugo.grosot.fr/ssh/">Configuration SSH</a>
+<li class="parent active"><a href="https://gsb.hugo.grosot.fr/ssh/">Configuration SSH</a>
   
 </li>
 
@@ -155,7 +182,7 @@ Published on 17 Oct 2017
   
 </li>
 
-<li class="parent active has-sub-menu"><a href="https://gsb.hugo.grosot.fr/pfsense/">PfSense<span class="mark opened">-</span></a>
+<li class=" has-sub-menu"><a href="https://gsb.hugo.grosot.fr/pfsense/">PfSense<span class="mark closed">+</span></a>
   
 <ul class="sub-menu">
 <li class=""><a href="https://gsb.hugo.grosot.fr/pfsense/install/">Installation PfSense</a></li>
