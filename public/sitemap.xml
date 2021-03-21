@@ -83,6 +83,21 @@
   </url>
   
   <url>
+    <loc>https://gsb.hugo.grosot.fr/wifi/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/wifi/wifi_dhcp/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/wifi/configuration_lan/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gsb.hugo.grosot.fr/ftp/tftp/tftp_portforwarding/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -94,6 +109,11 @@
   
   <url>
     <loc>https://gsb.hugo.grosot.fr/reseaux/topologie_physique/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/reseaux/topologie_physioque_ameliore/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
@@ -118,7 +138,7 @@
   </url>
   
   <url>
-    <loc>https://gsb.hugo.grosot.fr/wifi/</loc>
+    <loc>https://gsb.hugo.grosot.fr/wifi/configuration_wan/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
@@ -129,6 +149,11 @@
   
   <url>
     <loc>https://gsb.hugo.grosot.fr/pfsense/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/wifi/wifi_pfsense/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   

@@ -1,13 +1,13 @@
 ---
-title: "Configuration nat PfSense"
+title: "Configuration NAT PfSense"
 date: 2017-10-17T15:26:15Z
 draft: false
 weight: 40
-description: "Configuration nat PfSense"
+description: "Configuration NAT PfSense"
 ---
 
 - Dans `Firewall/NAT/Outbound`
-- Choisir le `Manual Outbound`
+- Choisir le `Manual Outbound`:  
 ![00](/images/pfsense/configuration/NAT/00.PNG)
 
 ---
@@ -30,4 +30,4 @@ description: "Configuration nat PfSense"
 ---
 
 - Gateway actives:  
-![05](/images/pfsense/configuration/NAT/05.PNG)
+![05](/images/pfsense/configuration/NAT/06.PNG)

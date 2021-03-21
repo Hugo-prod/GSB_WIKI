@@ -6,8 +6,8 @@ weight: 10
 ---
 
 
-- Télécharger la clef privée: [GSB](/SSH/gsb) 
-- Télécharger la clef publique: [GSB](/SSH/gsb.pub) 
+- Télécharger la clef privée: [GSB](https://drive.google.com/drive/folders/1_2ovgybSmYMAQPNMMYjq1g46S5bcd3MI?usp=sharing) 
+- Télécharger la clef publique: [GSB](https://drive.google.com/drive/folders/1_2ovgybSmYMAQPNMMYjq1g46S5bcd3MI?usp=sharing) 
 
 #### Voici la configuration SSH à ajouter dans le `~/.ssh/config`:
 ```bash  
