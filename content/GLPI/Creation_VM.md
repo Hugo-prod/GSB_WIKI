@@ -9,13 +9,13 @@ description: "1. Proxmox: Création VM GLPI"
 - Nommage de la VM:  
 ![00](/images/GLPI/CreationVM/00.PNG)
 
-- Selection du système d'exploitation (Debian):
+- Selection du système d'exploitation (Debian):  
 ![01](/images/GLPI/CreationVM/01.PNG)
 
-- Paramètre système par défaut: 
+- Paramètre système par défaut:  
 ![02](/images/GLPI/CreationVM/02.PNG)
 
-- Type et taille du disque dur:
+- Type et taille du disque dur:  
 ![03](/images/GLPI/CreationVM/03.PNG)
 
 - CPU:  

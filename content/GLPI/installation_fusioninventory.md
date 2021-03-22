@@ -8,47 +8,47 @@ description: "4. Installer FusionInventory"
 
 #### Télécharger FusionInventory (pour GLPI 9.5):
 
-- Télécharger FusionInventory:  
+- Téléchargez FusionInventory:  
 ```bash
 wget https://github.com/fusioninventory/fusioninventory-for-glpi/archive/refs/tags/glpi9.5+2.0.zip
 ```
 ![00](/images/GLPI/FusionInventory/00.PNG)
 
-- Décompresser FusionInventory:
+- Décompressez FusionInventory:
 ```bash  
 unzip glpi9.5+2.0.zip
 ``` 
 
-- Copier FusionInventory dans le repertoire de `/var/www/glpi/plugins/`:
+- Copiez FusionInventory dans le repertoire de `/var/www/glpi/plugins/`:
 ```bash  
 cp -r fusioninventory-for-glpi9.5-2.0/ /var/www/glpi/plugins/
 ```
 
-- Changer les droits du dossier:  
+- Changez les droits du dossier:  
 ```bash
 chown -R www-data fusioninventory-for-glpi9.5-2.0/
 ```
 
-- Renommer le dossier:
+- Renommez le dossier:
 ```bash  
 mv fusioninventory-for-glpi9.5-2.0/ fusioninventory
 ```
 
 #### Installer FusionInventory:
 
-- Aller dans les plugins:
+- Allez dans les plugins:  
 ![01](/images/GLPI/FusionInventory/01.PNG)
 
-- Cliquer sur installer:  
+- Cliquez sur installer:    
 ![02](/images/GLPI/FusionInventory/02.PNG)
 
-- Installation en cours:
+- Installation en cours:  
 ![03](/images/GLPI/FusionInventory/03.PNG)
 
-- Activer le plugin:
+- Activez le plugin:  
 ![04](/images/GLPI/FusionInventory/04.PNG)
 
-- Le plugin est maintenant activé:  
+- Le plugin est maintenant activé:    
 ![05](/images/GLPI/FusionInventory/05.PNG)
 
 #### Activer la tache cron:
@@ -58,23 +58,23 @@ mv fusioninventory-for-glpi9.5-2.0/ fusioninventory
 crontab -u www-data -e
 ```
 
-- Selectionner l'éditeur souhaité (Ex:1)
+- Selectionnez l'éditeur souhaité (Ex:1)
 
-- Ajouter à la fin du fichier:
+- Ajoutez à la fin du fichier:
 ```bash  
 */1 * * * * /usr/bin/php5 /var/www/html/glpi/front/cron.php &>/dev/null
 ```
 
-- Redémarrer le service:
+- Redémarrez le service:
 ```bash  
 /etc/init.d/cron restart
 ```
 
-- Aller dans `Configuration > Actions Automatiques`:
+- Allez dans `Configuration > Actions Automatiques`:  
 ![06](/images/GLPI/FusionInventory/06.PNG)
 
-- Cliquer sur TaskScheduler:
+- Cliquez sur TaskScheduler:  
 ![07](/images/GLPI/FusionInventory/07.PNG)
 
-- Puis cliquer sur executer: 
+- Puis cliquez sur executer:   
 ![08](/images/GLPI/FusionInventory/08.PNG)

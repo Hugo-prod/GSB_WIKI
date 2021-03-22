@@ -22,20 +22,20 @@ apt install php-mysqli php-mbstring php-curl php-gd php-simplexml php-intl php-l
 
 
 #### Sécurisation de la DB
-- Sécuriser la DB:
+- Sécurisez la DB:
 ```bash 
 mysql_secure_installation
 ```
-- Entrer le password **root**:  
+- Entrez le password **root**:  
 ![00](/images/GLPI/mysql_secure_installation/00.PNG)
 
-- Changer le password **root**:  
+- Changez le password **root**:  
 ![01](/images/GLPI/mysql_secure_installation/01.PNG)
 
 - Mettre Yes pour tout (Suppression des utilisateurs anonyme, suppression de la DB de test...):  
 ![02](/images/GLPI/mysql_secure_installation/02.PNG)
 
-- Recharger les privilèges:  
+- Rechargez les privilèges:  
 ![03](/images/GLPI/mysql_secure_installation/03.PNG)
 
 
@@ -43,7 +43,7 @@ mysql_secure_installation
 
 #### Création de la BD pour GLPI:
 
-- Se connecter à **MySQL** en **root**:
+- Se connectez à **MySQL** en **root**:
 ```bash  
 mysql -u root
 ```
@@ -77,7 +77,7 @@ rm /etc/apache2/sites-enabled/000-default.conf
 ln -s /etc/apache2/sites-available/GLPI.conf /etc/apache2/sites-enabled/GLPI.conf
 ```
 
-- Paramétrer le site dans le fichier `/etc/apache2/sites-available/GLPI.conf` : 
+- Paramétrez le site dans le fichier `/etc/apache2/sites-available/GLPI.conf` : 
 ```bash
 DocumentRoot /var/www/glpi
 <Directory /var/www/glpi>
@@ -89,7 +89,7 @@ Require all granted
 
 ![00](/images/GLPI/Apache_conf/00.PNG)
 
-- Redémarrer le service Apache2:  
+- Redémarrez le service Apache2:  
 ```Bash
 service apache2 restart
 ```

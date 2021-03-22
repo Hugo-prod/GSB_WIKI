@@ -56,46 +56,46 @@
 <main><h1>4. Installer FusionInventory</h1>
 <h4 id="télécharger-fusioninventory-pour-glpi-95">Télécharger FusionInventory (pour GLPI 9.5):</h4>
 <ul>
-<li>Télécharger FusionInventory:</li>
+<li>Téléchargez FusionInventory:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget https://github.com/fusioninventory/fusioninventory-for-glpi/archive/refs/tags/glpi9.5+2.0.zip
 </code></pre></div><p><img src="/images/GLPI/FusionInventory/00.PNG" alt="00"></p>
 <ul>
-<li>Décompresser FusionInventory:</li>
+<li>Décompressez FusionInventory:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">unzip glpi9.5+2.0.zip
 </code></pre></div><ul>
-<li>Copier FusionInventory dans le repertoire de <code>/var/www/glpi/plugins/</code>:</li>
+<li>Copiez FusionInventory dans le repertoire de <code>/var/www/glpi/plugins/</code>:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp -r fusioninventory-for-glpi9.5-2.0/ /var/www/glpi/plugins/
 </code></pre></div><ul>
-<li>Changer les droits du dossier:</li>
+<li>Changez les droits du dossier:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chown -R www-data fusioninventory-for-glpi9.5-2.0/
 </code></pre></div><ul>
-<li>Renommer le dossier:</li>
+<li>Renommez le dossier:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mv fusioninventory-for-glpi9.5-2.0/ fusioninventory
 </code></pre></div><h4 id="installer-fusioninventory">Installer FusionInventory:</h4>
 <ul>
 <li>
-<p>Aller dans les plugins:
+<p>Allez dans les plugins:<br>
 <img src="/images/GLPI/FusionInventory/01.PNG" alt="01"></p>
 </li>
 <li>
-<p>Cliquer sur installer:<br>
+<p>Cliquez sur installer: <br>
 <img src="/images/GLPI/FusionInventory/02.PNG" alt="02"></p>
 </li>
 <li>
-<p>Installation en cours:
+<p>Installation en cours:<br>
 <img src="/images/GLPI/FusionInventory/03.PNG" alt="03"></p>
 </li>
 <li>
-<p>Activer le plugin:
+<p>Activez le plugin:<br>
 <img src="/images/GLPI/FusionInventory/04.PNG" alt="04"></p>
 </li>
 <li>
-<p>Le plugin est maintenant activé:<br>
+<p>Le plugin est maintenant activé: <br>
 <img src="/images/GLPI/FusionInventory/05.PNG" alt="05"></p>
 </li>
 </ul>
@@ -106,28 +106,28 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">crontab -u www-data -e
 </code></pre></div><ul>
 <li>
-<p>Selectionner l&rsquo;éditeur souhaité (Ex:1)</p>
+<p>Selectionnez l&rsquo;éditeur souhaité (Ex:1)</p>
 </li>
 <li>
-<p>Ajouter à la fin du fichier:</p>
+<p>Ajoutez à la fin du fichier:</p>
 </li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*/1 * * * * /usr/bin/php5 /var/www/html/glpi/front/cron.php &amp;&gt;/dev/null
 </code></pre></div><ul>
-<li>Redémarrer le service:</li>
+<li>Redémarrez le service:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/etc/init.d/cron restart
 </code></pre></div><ul>
 <li>
-<p>Aller dans <code>Configuration &gt; Actions Automatiques</code>:
+<p>Allez dans <code>Configuration &gt; Actions Automatiques</code>:<br>
 <img src="/images/GLPI/FusionInventory/06.PNG" alt="06"></p>
 </li>
 <li>
-<p>Cliquer sur TaskScheduler:
+<p>Cliquez sur TaskScheduler:<br>
 <img src="/images/GLPI/FusionInventory/07.PNG" alt="07"></p>
 </li>
 <li>
-<p>Puis cliquer sur executer: 
+<p>Puis cliquez sur executer:<br>
 <img src="/images/GLPI/FusionInventory/08.PNG" alt="08"></p>
 </li>
 </ul>
@@ -138,7 +138,7 @@ Last updated on 17 Oct 2017
 <br>
 Published on 17 Oct 2017
 <br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/GLPI%5cinstallation_fusioninventory.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gsb.hugo.grosot.fr/glpi/installation_glpi/" title="3. Installation et configuration GLPI"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - 3. Installation et configuration GLPI</a>
-<a class="nav nav-next" href="https://gsb.hugo.grosot.fr/glpi/glpi_ad/" title="5. Lié L&#39;Active Directory à GLPI">Next - 5. Lié L&#39;Active Directory à GLPI <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<a class="nav nav-next" href="https://gsb.hugo.grosot.fr/glpi/glpi_ad/" title="5. Lier L&#39;Active Directory à GLPI">Next - 5. Lier L&#39;Active Directory à GLPI <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -244,7 +244,7 @@ Published on 17 Oct 2017
 <li class=""><a href="https://gsb.hugo.grosot.fr/glpi/installation_serveur_db/">2. Installation et configuration serveur, base de données</a></li>
 <li class=""><a href="https://gsb.hugo.grosot.fr/glpi/installation_glpi/">3. Installation et configuration GLPI</a></li>
 <li class="active"><a href="https://gsb.hugo.grosot.fr/glpi/installation_fusioninventory/">4. Installer FusionInventory</a></li>
-<li class=""><a href="https://gsb.hugo.grosot.fr/glpi/glpi_ad/">5. Lié L&#39;Active Directory à GLPI</a></li>
+<li class=""><a href="https://gsb.hugo.grosot.fr/glpi/glpi_ad/">5. Lier L&#39;Active Directory à GLPI</a></li>
 <li class=""><a href="https://gsb.hugo.grosot.fr/glpi/installation_agent/">6. Installation et configuration de l&#39;agent FusionInventory</a></li>
 </ul>
   

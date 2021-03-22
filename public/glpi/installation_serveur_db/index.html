@@ -66,16 +66,16 @@
 </code></pre></div><hr>
 <h4 id="sécurisation-de-la-db">Sécurisation de la DB</h4>
 <ul>
-<li>Sécuriser la DB:</li>
+<li>Sécurisez la DB:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mysql_secure_installation
 </code></pre></div><ul>
 <li>
-<p>Entrer le password <strong>root</strong>:<br>
+<p>Entrez le password <strong>root</strong>:<br>
 <img src="/images/GLPI/mysql_secure_installation/00.PNG" alt="00"></p>
 </li>
 <li>
-<p>Changer le password <strong>root</strong>:<br>
+<p>Changez le password <strong>root</strong>:<br>
 <img src="/images/GLPI/mysql_secure_installation/01.PNG" alt="01"></p>
 </li>
 <li>
@@ -83,14 +83,14 @@
 <img src="/images/GLPI/mysql_secure_installation/02.PNG" alt="02"></p>
 </li>
 <li>
-<p>Recharger les privilèges:<br>
+<p>Rechargez les privilèges:<br>
 <img src="/images/GLPI/mysql_secure_installation/03.PNG" alt="03"></p>
 </li>
 </ul>
 <hr>
 <h4 id="création-de-la-bd-pour-glpi">Création de la BD pour GLPI:</h4>
 <ul>
-<li>Se connecter à <strong>MySQL</strong> en <strong>root</strong>:</li>
+<li>Se connectez à <strong>MySQL</strong> en <strong>root</strong>:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mysql -u root
 </code></pre></div><ul>
@@ -117,7 +117,7 @@ exit
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ln -s /etc/apache2/sites-available/GLPI.conf /etc/apache2/sites-enabled/GLPI.conf
 </code></pre></div><ul>
-<li>Paramétrer le site dans le fichier <code>/etc/apache2/sites-available/GLPI.conf</code> :</li>
+<li>Paramétrez le site dans le fichier <code>/etc/apache2/sites-available/GLPI.conf</code> :</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">DocumentRoot /var/www/glpi
 &lt;Directory /var/www/glpi&gt;
@@ -127,7 +127,7 @@ Require all granted
 &lt;/Directory&gt;
 </code></pre></div><p><img src="/images/GLPI/Apache_conf/00.PNG" alt="00"></p>
 <ul>
-<li>Redémarrer le service Apache2:</li>
+<li>Redémarrez le service Apache2:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">service apache2 restart
 </code></pre></div><div class="edit-meta">
@@ -243,7 +243,7 @@ Published on 17 Oct 2017
 <li class="active"><a href="https://gsb.hugo.grosot.fr/glpi/installation_serveur_db/">2. Installation et configuration serveur, base de données</a></li>
 <li class=""><a href="https://gsb.hugo.grosot.fr/glpi/installation_glpi/">3. Installation et configuration GLPI</a></li>
 <li class=""><a href="https://gsb.hugo.grosot.fr/glpi/installation_fusioninventory/">4. Installer FusionInventory</a></li>
-<li class=""><a href="https://gsb.hugo.grosot.fr/glpi/glpi_ad/">5. Lié L&#39;Active Directory à GLPI</a></li>
+<li class=""><a href="https://gsb.hugo.grosot.fr/glpi/glpi_ad/">5. Lier L&#39;Active Directory à GLPI</a></li>
 <li class=""><a href="https://gsb.hugo.grosot.fr/glpi/installation_agent/">6. Installation et configuration de l&#39;agent FusionInventory</a></li>
 </ul>
   
