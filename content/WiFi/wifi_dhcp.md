@@ -8,7 +8,4 @@ weight: 10
 
 #### DHCP:  
 
-![DHCP configuration](/images/WiFi/wifi_config_dhcp.png)
-
-**TODO:** 
-	- IMG plus à jour (Primary DNS)
+![DHCP configuration](/images/WiFi/WIFI_DHCP_SETTINGS.png)

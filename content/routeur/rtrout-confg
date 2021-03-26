@@ -1,12 +1,4 @@
----
-title: "Configuration"
-date: 2017-10-17T15:26:15Z
-draft: false
----
 
-Télécharger la configuration: [Télécharger](/routeur/rtrout-confg)
-
-```bash
 !
 ! Last configuration change at 08:13:17 UTC Wed Feb 24 2021
 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021
@@ -101,5 +93,3 @@ line vty 0 4
 !
 scheduler allocate 20000 1000
 end
-
-```
