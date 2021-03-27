@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Configuration - GSB WIKI</title>
 <meta name="description" content="Wiki pour le projet GSB">
-<meta name="generator" content="Hugo 0.78.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <link href="https://gsb.hugo.grosot.fr//index.xml" rel="alternate" type="application/rss+xml">
 <link rel="canonical" href="https://gsb.hugo.grosot.fr/routeur/rtrout/config/">
 <link rel="stylesheet" href="https://gsb.hugo.grosot.fr/css/theme.min.css">
@@ -18,7 +18,8 @@
 :root {}
 </style>
 <meta property="og:title" content="Configuration" />
-<meta property="og:description" content="TODO: Mettre la configuration du routeur " />
+<meta property="og:description" content="Télécharger la configuration: Télécharger
+! ! Last configuration change at 08:13:17 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 version 15.1 service timestamps debug datetime msec service timestamps log datetime msec no service password-encryption ! hostname RTROUT ! boot-start-marker boot-end-marker ! ! ! no aaa new-model ! no ipv6 cef ip source-route ip cef !" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://gsb.hugo.grosot.fr/routeur/rtrout/config/" />
 <meta property="og:image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
@@ -28,18 +29,19 @@
 <meta name="twitter:image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
 
 <meta name="twitter:title" content="Configuration"/>
-<meta name="twitter:description" content="TODO: Mettre la configuration du routeur "/>
+<meta name="twitter:description" content="Télécharger la configuration: Télécharger
+! ! Last configuration change at 08:13:17 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 version 15.1 service timestamps debug datetime msec service timestamps log datetime msec no service password-encryption ! hostname RTROUT ! boot-start-marker boot-end-marker ! ! ! no aaa new-model ! no ipv6 cef ip source-route ip cef !"/>
 <meta itemprop="name" content="Configuration">
-<meta itemprop="description" content="TODO: Mettre la configuration du routeur ">
-<meta itemprop="datePublished" content="2017-10-17T15:26:15+00:00" />
-<meta itemprop="dateModified" content="2017-10-17T15:26:15+00:00" />
-<meta itemprop="wordCount" content="6">
+<meta itemprop="description" content="Télécharger la configuration: Télécharger
+! ! Last configuration change at 08:13:17 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 version 15.1 service timestamps debug datetime msec service timestamps log datetime msec no service password-encryption ! hostname RTROUT ! boot-start-marker boot-end-marker ! ! ! no aaa new-model ! no ipv6 cef ip source-route ip cef !">
+<meta itemprop="datePublished" content="2017-10-17T15:26:15&#43;00:00" />
+<meta itemprop="dateModified" content="2017-10-17T15:26:15&#43;00:00" />
+<meta itemprop="wordCount" content="239">
 <meta itemprop="image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
 
 
 
-<meta itemprop="keywords" content="" />
-</head>
+<meta itemprop="keywords" content="" /></head>
 <body><div class="container"><header>
 <h1>GSB WIKI</h1><span class="version">Version 0.9.5</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
 <p class="description">Wiki pour le projet GSB</p>
@@ -54,14 +56,109 @@
 </div>
 <div class="content-container">
 <main><h1>Configuration</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">TODO: Mettre la configuration du routeur
+<p>Télécharger la configuration: <a href="/routeur/rtrout-confg">Télécharger</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">!
+! Last configuration change at 08:13:17 UTC Wed Feb <span style="color:#ae81ff">24</span> <span style="color:#ae81ff">2021</span>
+! NVRAM config last updated at 08:17:33 UTC Wed Feb <span style="color:#ae81ff">24</span> <span style="color:#ae81ff">2021</span>
+! NVRAM config last updated at 08:17:33 UTC Wed Feb <span style="color:#ae81ff">24</span> <span style="color:#ae81ff">2021</span>
+version 15.1
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname RTROUT
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+!
+no ipv6 cef
+ip source-route
+ip cef
+!
+!
+!
+!
+!
+multilink bundle-name authenticated
+!
+crypto pki token default removal timeout <span style="color:#ae81ff">0</span>
+!
+!
+license udi pid CISCO1941/K9 sn FCZ1705C2WP
+!
+!
+!
+redundancy
+!
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ ip address 192.168.10.2 255.255.255.252
+ ip nat outside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 192.168.11.1 255.255.255.252
+ ip nat inside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip nat inside source list <span style="color:#ae81ff">1</span> interface GigabitEthernet0/0 overload
+ip route 0.0.0.0 0.0.0.0 192.168.10.1
+ip route 192.168.1.0 255.255.255.0 192.168.11.2
+!
+access-list <span style="color:#ae81ff">1</span> permit any
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+line con <span style="color:#ae81ff">0</span>
+line aux <span style="color:#ae81ff">0</span>
+line <span style="color:#ae81ff">2</span>
+ no activation-character
+ no exec
+ transport preferred none
+ transport output lat pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits <span style="color:#ae81ff">1</span>
+line vty <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">4</span>
+ login
+ transport input all
+!
+scheduler allocate <span style="color:#ae81ff">20000</span> <span style="color:#ae81ff">1000</span>
+end
+
 </code></pre></div><div class="edit-meta">
 Last updated on 17 Oct 2017
 
 
 <br>
 Published on 17 Oct 2017
-<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/Routeur%5cRTROUT%5cconfig.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gsb.hugo.grosot.fr/routeur/rtrout/" title="Routeur: RTROUT"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Routeur: RTROUT</a>
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/routeur/RTROUT/config.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gsb.hugo.grosot.fr/routeur/rtrout/" title="Routeur: RTROUT"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Routeur: RTROUT</a>
 <a class="nav nav-next" href="https://gsb.hugo.grosot.fr/ftp/" title="Serveur FTP (sFTP &#43; TFTP)">Next - Serveur FTP (sFTP &#43; TFTP) <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
@@ -143,7 +240,11 @@ Published on 17 Oct 2017
   
 <ul class="sub-menu">
 
-<li class=""><a href="https://gsb.hugo.grosot.fr/switch/mutlab/">Switch</a>
+<li class=" has-sub-menu"><a href="https://gsb.hugo.grosot.fr/switch/mutlab/">Switch: MUTLAB<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://gsb.hugo.grosot.fr/switch/mutlab/configuration/">Configuration</a></li>
+</ul>
   
 </li>
 </ul>

@@ -6,14 +6,18 @@
     <description>Recent content in WiFi on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/wifi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://gsb.hugo.grosot.fr/wifi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>WiFi - DHCP</title>
       <link>https://gsb.hugo.grosot.fr/wifi/wifi_dhcp/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/wifi/wifi_dhcp/</guid>
-      <description>DHCP: TODO: - IMG plus à jour (Primary DNS)</description>
+      <description>DHCP: </description>
     </item>
     
     <item>
@@ -22,7 +26,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/wifi/configuration_lan/</guid>
-      <description>LAN:  MAC Address:90-F6-52-D5-DA-54 IP Address:192.168.0.1 Subnet Mask:255.255.255.0   </description>
+      <description>LAN:  **MAC Address:**90-F6-52-D5-DA-54 **IP Address:**192.168.0.1 **Subnet Mask:**255.255.255.0   </description>
     </item>
     
     <item>
@@ -31,7 +35,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/wifi/configuration_wan/</guid>
-      <description>WAN:  MAC Address:90-F6-52-D5-DA-55 IP Address(STATIC):192.168.130.2 Subnet Mask:255.255.255.252 Default Gateway:192.168.130.1 DNS Server:192.168.1.3 , 0.0.0.0   </description>
+      <description>WAN:  **MAC Address:**90-F6-52-D5-DA-55 **IP Address(STATIC):**192.168.130.2 **Subnet Mask:**255.255.255.252 **Default Gateway:**192.168.130.1 **DNS Server:**192.168.1.3 , 0.0.0.0   </description>
     </item>
     
     <item>

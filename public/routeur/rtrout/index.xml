@@ -6,14 +6,19 @@
     <description>Recent content in Routeur: RTROUT on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/routeur/rtrout/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://gsb.hugo.grosot.fr/routeur/rtrout/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Configuration</title>
       <link>https://gsb.hugo.grosot.fr/routeur/rtrout/config/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/routeur/rtrout/config/</guid>
-      <description>TODO: Mettre la configuration du routeur </description>
+      <description>Télécharger la configuration: Télécharger
+! ! Last configuration change at 08:13:17 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 version 15.1 service timestamps debug datetime msec service timestamps log datetime msec no service password-encryption ! hostname RTROUT ! boot-start-marker boot-end-marker ! ! ! no aaa new-model ! no ipv6 cef ip source-route ip cef !</description>
     </item>
     
   </channel>
