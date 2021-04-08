@@ -16,3 +16,17 @@ Liens utiles:
 Outils:
 - [Subnetting calculator](https://www.calculator.net/ip-subnet-calculator.html)
 - [Créer des diagrammes](https://app.creately.com)
+
+Inventaire:
+- 1x [SERVER - BACKUP] - Server HP ProLiant DL120 G7 
+- 1x [SERVER - SERVICES] - Server Dell poweredge R610
+- 1x  Router Cisco 1941/k9 
+- 1x Switch Cisco Catalyst 2950 series
+- 1x Router Wifi DG834GT
+- 1x [UC - TFTPD/FTP] - Dell OptiPlex
+- 2x [UC - PC Client] - HP Compaq DC7700 SmallFormFactor
+- 1x [UC - PC Admin] - Tour assemblée .........???????? (No brand)
+
+Thèmes:
+- Gestion de parc - https://drive.google.com/file/d/1sp3jFi_IMGydVfblEIS4W4Bi2Cnoigsa/view?usp=sharing
+- Supervision - https://drive.google.com/file/d/1pASBIn2NXA1IA4hht5GwQb02ZMtxSOwb/view?usp=sharing
