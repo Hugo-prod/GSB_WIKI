@@ -6,7 +6,11 @@
     <description>Recent content in GLPI on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/glpi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://gsb.hugo.grosot.fr/glpi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>1. Proxmox: Création VM GLPI</title>
       <link>https://gsb.hugo.grosot.fr/glpi/creation_vm/</link>

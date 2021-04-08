@@ -6,14 +6,18 @@
     <description>Recent content in Serveur TFTP on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/ftp/tftp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://gsb.hugo.grosot.fr/ftp/tftp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Installation du serveur TFTP</title>
       <link>https://gsb.hugo.grosot.fr/ftp/tftp/install_tftp/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/ftp/tftp/install_tftp/</guid>
-      <description> Installation du package tftpd-hpa:  sudo apt-get install tftpd-hpa  Fichier de configuration /etc/default/tftpd-hpa:  # /etc/default/tftpd-hpa TFTP_USERNAME=&amp;#34;tftp&amp;#34; TFTP_DIRECTORY=&amp;#34;/home/sio/upload/tftp/&amp;#34; TFTP_ADDRESS=&amp;#34;:69&amp;#34; TFTP_OPTIONS=&amp;#34;--secure --create&amp;#34;  Créer le dossier /home/sio/upload/tftp/:  mkdir /home/sio/upload/tftp/  Changer le propriétaire et le groupe du dossier:  cd /home/sio/upload/ chown tftp:tftp tftp/  relancer le service (Charger la nouvelle conf):  systemctl restart tftpd-hpa </description>
+      <description> Installation du package tftpd-hpa:  sudo apt-get install tftpd-hpa Fichier de configuration /etc/default/tftpd-hpa:  # /etc/default/tftpd-hpaTFTP_USERNAME=&amp;#34;tftp&amp;#34;TFTP_DIRECTORY=&amp;#34;/home/sio/upload/tftp/&amp;#34;TFTP_ADDRESS=&amp;#34;:69&amp;#34;TFTP_OPTIONS=&amp;#34;--secure --create&amp;#34; Créer le dossier /home/sio/upload/tftp/:  mkdir /home/sio/upload/tftp/ Changer le propriétaire et le groupe du dossier:  cd /home/sio/upload/chown tftp:tftp tftp/ relancer le service (Charger la nouvelle conf):  systemctl restart tftpd-hpa</description>
     </item>
     
     <item>
@@ -22,7 +26,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/</guid>
-      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5  Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config   Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
+      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5 Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config  Se connecter en TFTP:  tftp 192.168.1.5 Activer le mode verbeux:  tftp&amp;gt; verbose Téléverser un fichier:  tftp&amp;gt; put cisco.cfg Télécharger un fichier:  tftp&amp;gt; get cisco.cfg Quitter la session TFTP:  tftp&amp;gt; quit</description>
     </item>
     
     <item>

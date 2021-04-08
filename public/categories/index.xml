@@ -5,6 +5,10 @@
     <link>https://gsb.hugo.grosot.fr/categories/</link>
     <description>Recent content in Categories on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="https://gsb.hugo.grosot.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="https://gsb.hugo.grosot.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

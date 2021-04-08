@@ -3,11 +3,11 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Utilisation du serveur TFTP - GSB WIKI</title>
-<meta name="description" content="Utilisation du serveur TFTP">
+<title>Configuration - GSB WIKI</title>
+<meta name="description" content="Wiki pour le projet GSB">
 <meta name="generator" content="Hugo 0.68.3" />
 <link href="https://gsb.hugo.grosot.fr//index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/">
+<link rel="canonical" href="https://gsb.hugo.grosot.fr/switch/mutlab/configuration/">
 <link rel="stylesheet" href="https://gsb.hugo.grosot.fr/css/theme.min.css">
 <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link rel="stylesheet" href="https://gsb.hugo.grosot.fr/css/chroma.min.css">
@@ -17,23 +17,26 @@
 <script src="https://gsb.hugo.grosot.fr/js/bundle.js"></script><style>
 :root {}
 </style>
-<meta property="og:title" content="Utilisation du serveur TFTP" />
-<meta property="og:description" content="Utilisation du serveur TFTP" />
+<meta property="og:title" content="Configuration" />
+<meta property="og:description" content="Télécharger la configuration: Télécharger
+! version 12.1 no service pad service timestamps debug uptime service timestamps log uptime no service password-encryption ! hostname MUTLAB ! ! ip subnet-zero ! ! spanning-tree mode pvst no spanning-tree optimize bpdu transmission spanning-tree extend system-id ! ! ! ! interface FastEthernet0/1 ! interface FastEthernet0/2 ! interface FastEthernet0/3 ! interface FastEthernet0/4 ! interface FastEthernet0/5 ! interface FastEthernet0/6 switchport access vlan 130 switchport mode access ! interface FastEthernet0/7 !" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/" />
+<meta property="og:url" content="https://gsb.hugo.grosot.fr/switch/mutlab/configuration/" />
 <meta property="og:image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
 <meta property="article:published_time" content="2017-10-17T15:26:15+00:00" />
 <meta property="article:modified_time" content="2017-10-17T15:26:15+00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
 
-<meta name="twitter:title" content="Utilisation du serveur TFTP"/>
-<meta name="twitter:description" content="Utilisation du serveur TFTP"/>
-<meta itemprop="name" content="Utilisation du serveur TFTP">
-<meta itemprop="description" content="Utilisation du serveur TFTP">
+<meta name="twitter:title" content="Configuration"/>
+<meta name="twitter:description" content="Télécharger la configuration: Télécharger
+! version 12.1 no service pad service timestamps debug uptime service timestamps log uptime no service password-encryption ! hostname MUTLAB ! ! ip subnet-zero ! ! spanning-tree mode pvst no spanning-tree optimize bpdu transmission spanning-tree extend system-id ! ! ! ! interface FastEthernet0/1 ! interface FastEthernet0/2 ! interface FastEthernet0/3 ! interface FastEthernet0/4 ! interface FastEthernet0/5 ! interface FastEthernet0/6 switchport access vlan 130 switchport mode access ! interface FastEthernet0/7 !"/>
+<meta itemprop="name" content="Configuration">
+<meta itemprop="description" content="Télécharger la configuration: Télécharger
+! version 12.1 no service pad service timestamps debug uptime service timestamps log uptime no service password-encryption ! hostname MUTLAB ! ! ip subnet-zero ! ! spanning-tree mode pvst no spanning-tree optimize bpdu transmission spanning-tree extend system-id ! ! ! ! interface FastEthernet0/1 ! interface FastEthernet0/2 ! interface FastEthernet0/3 ! interface FastEthernet0/4 ! interface FastEthernet0/5 ! interface FastEthernet0/6 switchport access vlan 130 switchport mode access ! interface FastEthernet0/7 !">
 <meta itemprop="datePublished" content="2017-10-17T15:26:15&#43;00:00" />
 <meta itemprop="dateModified" content="2017-10-17T15:26:15&#43;00:00" />
-<meta itemprop="wordCount" content="46">
+<meta itemprop="wordCount" content="167">
 <meta itemprop="image" content="https://gsb.hugo.grosot.fr/images/og-image.png"/>
 
 
@@ -52,44 +55,109 @@
 </nav>
 </div>
 <div class="content-container">
-<main><h1>Utilisation du serveur TFTP</h1>
-<ul>
-<li>Push vers le serveur TFTP:</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">copy running-config tftp://192.168.1.5
-</code></pre></div><ul>
-<li>Pull vers le serveur TFTP:</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">copy tftp://192.168.1.5 running-config
-</code></pre></div><hr>
-<ul>
-<li>Se connecter en TFTP:</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tftp 192.168.1.5
-</code></pre></div><ul>
-<li>Activer le mode verbeux:</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tftp&gt; verbose
-</code></pre></div><ul>
-<li>Téléverser un fichier:</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tftp&gt; put cisco.cfg
-</code></pre></div><ul>
-<li>Télécharger un fichier:</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tftp&gt; get cisco.cfg
-</code></pre></div><ul>
-<li>Quitter la session TFTP:</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tftp&gt; quit
+<main><h1>Configuration</h1>
+<p>Télécharger la configuration: <a href="/switch/mutlab-confg">Télécharger</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+!
+version 12.1
+no service pad
+service timestamps debug uptime
+service timestamps log uptime
+no service password-encryption
+!
+hostname MUTLAB
+!
+!
+ip subnet-zero
+!
+!
+spanning-tree mode pvst
+no spanning-tree optimize bpdu transmission
+spanning-tree extend system-id
+!
+!
+!
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+ switchport access vlan <span style="color:#ae81ff">130</span>
+ switchport mode access
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+interface FastEthernet0/13
+!
+interface FastEthernet0/14
+!
+interface FastEthernet0/15
+!
+interface FastEthernet0/16
+!
+interface FastEthernet0/17
+!
+interface FastEthernet0/18
+!
+interface FastEthernet0/19
+!
+interface FastEthernet0/20
+!
+interface FastEthernet0/21
+!
+interface FastEthernet0/22
+!
+interface FastEthernet0/23
+!
+interface FastEthernet0/24
+!
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+ switchport mode trunk
+!
+interface Vlan1
+ ip address 192.168.1.7 255.255.255.0
+ no ip route-cache
+!
+interface Vlan5
+ no ip address
+ no ip route-cache
+ shutdown
+!
+ip http server
+!
+line con <span style="color:#ae81ff">0</span>
+line vty <span style="color:#ae81ff">5</span> <span style="color:#ae81ff">15</span>
+!
+!
+end
+
 </code></pre></div><div class="edit-meta">
 Last updated on 17 Oct 2017
 
 
 <br>
 Published on 17 Oct 2017
-<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/FTP/TFTP/use_tftp.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gsb.hugo.grosot.fr/ftp/tftp/install_tftp/" title="Installation du serveur TFTP"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Installation du serveur TFTP</a>
-<a class="nav nav-next" href="https://gsb.hugo.grosot.fr/ftp/tftp/tftp_portforwarding/" title="Port Forwarding pour serveur TFTP">Next - Port Forwarding pour serveur TFTP <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/switch/MUTLAB/configuration.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gsb.hugo.grosot.fr/switch/mutlab/" title="Switch: MUTLAB"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Switch: MUTLAB</a>
+<a class="nav nav-next" href="https://gsb.hugo.grosot.fr/wifi/" title="WiFi">Next - WiFi <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -140,7 +208,7 @@ Published on 17 Oct 2017
   
 </li>
 
-<li class="parent has-sub-menu"><a href="https://gsb.hugo.grosot.fr/ftp/">Serveur FTP (sFTP &#43; TFTP)<span class="mark opened">-</span></a>
+<li class=" has-sub-menu"><a href="https://gsb.hugo.grosot.fr/ftp/">Serveur FTP (sFTP &#43; TFTP)<span class="mark closed">+</span></a>
   
 <ul class="sub-menu">
 
@@ -153,11 +221,11 @@ Published on 17 Oct 2017
   
 </li>
 
-<li class="parent has-sub-menu"><a href="https://gsb.hugo.grosot.fr/ftp/tftp/">Serveur TFTP<span class="mark opened">-</span></a>
+<li class=" has-sub-menu"><a href="https://gsb.hugo.grosot.fr/ftp/tftp/">Serveur TFTP<span class="mark closed">+</span></a>
   
 <ul class="sub-menu">
 <li class=""><a href="https://gsb.hugo.grosot.fr/ftp/tftp/install_tftp/">Installation du serveur TFTP</a></li>
-<li class="active"><a href="https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/">Utilisation du serveur TFTP</a></li>
+<li class=""><a href="https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/">Utilisation du serveur TFTP</a></li>
 <li class=""><a href="https://gsb.hugo.grosot.fr/ftp/tftp/tftp_portforwarding/">Port Forwarding pour serveur TFTP</a></li>
 </ul>
   
@@ -166,14 +234,14 @@ Published on 17 Oct 2017
   
 </li>
 
-<li class=" has-sub-menu"><a href="https://gsb.hugo.grosot.fr/switch/">Switch<span class="mark closed">+</span></a>
+<li class="parent has-sub-menu"><a href="https://gsb.hugo.grosot.fr/switch/">Switch<span class="mark opened">-</span></a>
   
 <ul class="sub-menu">
 
-<li class=" has-sub-menu"><a href="https://gsb.hugo.grosot.fr/switch/mutlab/">Switch: MUTLAB<span class="mark closed">+</span></a>
+<li class="parent has-sub-menu"><a href="https://gsb.hugo.grosot.fr/switch/mutlab/">Switch: MUTLAB<span class="mark opened">-</span></a>
   
 <ul class="sub-menu">
-<li class=""><a href="https://gsb.hugo.grosot.fr/switch/mutlab/configuration/">Configuration</a></li>
+<li class="active"><a href="https://gsb.hugo.grosot.fr/switch/mutlab/configuration/">Configuration</a></li>
 </ul>
   
 </li>

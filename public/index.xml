@@ -6,7 +6,11 @@
     <description>Recent content in Home on GSB WIKI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gsb.hugo.grosot.fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://gsb.hugo.grosot.fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>1. Proxmox: Création VM GLPI</title>
       <link>https://gsb.hugo.grosot.fr/glpi/creation_vm/</link>
@@ -39,7 +43,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/meta/custom-shortcodes/</guid>
-      <description>Code highlight with clipboard sample/custom-shortcodes.html Copy{{&amp;lt; highlight html &amp;gt;}} &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt; {{&amp;lt; /highlight &amp;gt;}} Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+      <description>Code highlight with clipboard sample/custom-shortcodes.html Copy{{&amp;lt; highlight html &amp;gt;}} &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt; {{&amp;lt; /highlight &amp;gt;}}    Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
@@ -49,7 +53,7 @@
       
       <guid>https://gsb.hugo.grosot.fr/ftp/sftp/install_sftp/</guid>
       <description>Construction d&amp;rsquo;un SFTP SSH JAIL
-  Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users  Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio  Pour ajouter des utilisateurs existant:  usermod -G sftp_users john  Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd  Paramètrer les permissions:  chown root /home/sio  Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/upload chown sio /home/sio/upload  Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-server Subsystem sftp internal-sftp Match Group sftp_users X11Forwarding no AllowTcpForwarding no ChrootDirectory %h ForceCommand internal-sftp  Redemarrer le service sshd:  systemctl restart sshd </description>
+  Créer le groupe pour les utilisateurs SFTP:  groupadd sftp_users Ajouter un utilisateur au groupe sftp_users:  useradd -m -G sftp_users sio Pour ajouter des utilisateurs existant:  usermod -G sftp_users john Définir le PWD de l&amp;rsquo;utilisateur:  echo &amp;#34;sio:sio2020&amp;#34; | chpasswd Paramètrer les permissions:  chown root /home/sio Créer un dossier upload/ dans le dossier de l&amp;rsquo;utilisateur et paramètrer les permissions:  mkdir /home/sio/uploadchown sio /home/sio/upload Editer le fichier de configuration du service SSH /etc/ssh/sshd_config:  #Subsystem sftp /usr/lib/openssh/sftp-serverSubsystem sftp internal-sftpMatch Group sftp_usersX11Forwarding noAllowTcpForwarding noChrootDirectory %hForceCommand internal-sftp Redemarrer le service sshd:  systemctl restart sshd </description>
     </item>
     
     <item>
@@ -58,7 +62,7 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/ftp/tftp/install_tftp/</guid>
-      <description> Installation du package tftpd-hpa:  sudo apt-get install tftpd-hpa  Fichier de configuration /etc/default/tftpd-hpa:  # /etc/default/tftpd-hpa TFTP_USERNAME=&amp;#34;tftp&amp;#34; TFTP_DIRECTORY=&amp;#34;/home/sio/upload/tftp/&amp;#34; TFTP_ADDRESS=&amp;#34;:69&amp;#34; TFTP_OPTIONS=&amp;#34;--secure --create&amp;#34;  Créer le dossier /home/sio/upload/tftp/:  mkdir /home/sio/upload/tftp/  Changer le propriétaire et le groupe du dossier:  cd /home/sio/upload/ chown tftp:tftp tftp/  relancer le service (Charger la nouvelle conf):  systemctl restart tftpd-hpa </description>
+      <description> Installation du package tftpd-hpa:  sudo apt-get install tftpd-hpa Fichier de configuration /etc/default/tftpd-hpa:  # /etc/default/tftpd-hpaTFTP_USERNAME=&amp;#34;tftp&amp;#34;TFTP_DIRECTORY=&amp;#34;/home/sio/upload/tftp/&amp;#34;TFTP_ADDRESS=&amp;#34;:69&amp;#34;TFTP_OPTIONS=&amp;#34;--secure --create&amp;#34; Créer le dossier /home/sio/upload/tftp/:  mkdir /home/sio/upload/tftp/ Changer le propriétaire et le groupe du dossier:  cd /home/sio/upload/chown tftp:tftp tftp/ relancer le service (Charger la nouvelle conf):  systemctl restart tftpd-hpa</description>
     </item>
     
     <item>
@@ -67,9 +71,9 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/meta/table-of-contents/</guid>
-      <description>NoteThe TableOfContents field with true in your content’s front matter will render a table of contents.
-TableOfContents: trueSetting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
-Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+      <description>Note The TableOfContents field with true in your content’s front matter will render a table of contents.
+TableOfContents: true Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
+  Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
@@ -88,7 +92,7 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/ftp/tftp/use_tftp/</guid>
-      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5  Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config   Se connecter en TFTP:  tftp 192.168.1.5  Activer le mode verbeux:  tftp&amp;gt; verbose  Téléverser un fichier:  tftp&amp;gt; put cisco.cfg  Télécharger un fichier:  tftp&amp;gt; get cisco.cfg  Quitter la session TFTP:  tftp&amp;gt; quit </description>
+      <description> Push vers le serveur TFTP:  copy running-config tftp://192.168.1.5 Pull vers le serveur TFTP:  copy tftp://192.168.1.5 running-config  Se connecter en TFTP:  tftp 192.168.1.5 Activer le mode verbeux:  tftp&amp;gt; verbose Téléverser un fichier:  tftp&amp;gt; put cisco.cfg Télécharger un fichier:  tftp&amp;gt; get cisco.cfg Quitter la session TFTP:  tftp&amp;gt; quit</description>
     </item>
     
     <item>
@@ -97,7 +101,7 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/wifi/wifi_dhcp/</guid>
-      <description>DHCP: TODO: - IMG plus à jour (Primary DNS)</description>
+      <description>DHCP: </description>
     </item>
     
     <item>
@@ -106,7 +110,7 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/wifi/configuration_lan/</guid>
-      <description>LAN:  MAC Address:90-F6-52-D5-DA-54 IP Address:192.168.0.1 Subnet Mask:255.255.255.0   </description>
+      <description>LAN:  **MAC Address:**90-F6-52-D5-DA-54 **IP Address:**192.168.0.1 **Subnet Mask:**255.255.255.0   </description>
     </item>
     
     <item>
@@ -168,12 +172,22 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
     </item>
     
     <item>
+      <title>Configuration</title>
+      <link>https://gsb.hugo.grosot.fr/switch/mutlab/configuration/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://gsb.hugo.grosot.fr/switch/mutlab/configuration/</guid>
+      <description>Télécharger la configuration: Télécharger
+! version 12.1 no service pad service timestamps debug uptime service timestamps log uptime no service password-encryption ! hostname MUTLAB ! ! ip subnet-zero ! ! spanning-tree mode pvst no spanning-tree optimize bpdu transmission spanning-tree extend system-id ! ! ! ! interface FastEthernet0/1 ! interface FastEthernet0/2 ! interface FastEthernet0/3 ! interface FastEthernet0/4 ! interface FastEthernet0/5 ! interface FastEthernet0/6 switchport access vlan 130 switchport mode access ! interface FastEthernet0/7 !</description>
+    </item>
+    
+    <item>
       <title>WiFi - WAN configuration</title>
       <link>https://gsb.hugo.grosot.fr/wifi/configuration_wan/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/wifi/configuration_wan/</guid>
-      <description>WAN:  MAC Address:90-F6-52-D5-DA-55 IP Address(STATIC):192.168.130.2 Subnet Mask:255.255.255.252 Default Gateway:192.168.130.1 DNS Server:192.168.1.3 , 0.0.0.0   </description>
+      <description>WAN:  **MAC Address:**90-F6-52-D5-DA-55 **IP Address(STATIC):**192.168.130.2 **Subnet Mask:**255.255.255.252 **Default Gateway:**192.168.130.1 **DNS Server:**192.168.1.3 , 0.0.0.0   </description>
     </item>
     
     <item>
@@ -324,8 +338,8 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
       <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/meta/search-shortcode/</guid>
-      <description>var search = instantsearch({indexName: &#39;hugo-demo-techdoc&#39;,searchClient: algoliasearch(&#39;7W4SAN4PLK&#39;,&#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39;),routing: true,});const renderHits = (renderOptions, isFirstRender) = {const { hits } = renderOptions;document.querySelector(&#39;#hits&#39;).innerHTML = `${hits.map(item =`${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ? item.description : item.content.length  200 ? item.content.substring( 0, 200 ) + &#39;...&#39; : item.content }
-`).join(&#39;&#39;)}`;};const customHits = instantsearch.</description>
+      <description>var search = instantsearch({ indexName: &#39;hugo-demo-techdoc&#39;, searchClient: algoliasearch( &#39;7W4SAN4PLK&#39;, &#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39; ), routing: true, }); const renderHits = (renderOptions, isFirstRender) = { const { hits } = renderOptions; document.querySelector(&#39;#hits&#39;).innerHTML = ` ${hits .map( item = `${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ? item.description : item.content.length  200 ? item.content.substring( 0, 200 ) + &#39;...&#39; : item.content }
+` ) .join(&#39;&#39;)} `; }; const customHits = instantsearch.</description>
     </item>
     
     <item>
@@ -334,7 +348,8 @@ TableOfContents: trueSetting the built-in .TableOfContents variables can config
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://gsb.hugo.grosot.fr/routeur/rtrout/config/</guid>
-      <description>TODO: Mettre la configuration du routeur </description>
+      <description>Télécharger la configuration: Télécharger
+! ! Last configuration change at 08:13:17 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 ! NVRAM config last updated at 08:17:33 UTC Wed Feb 24 2021 version 15.1 service timestamps debug datetime msec service timestamps log datetime msec no service password-encryption ! hostname RTROUT ! boot-start-marker boot-end-marker ! ! ! no aaa new-model ! no ipv6 cef ip source-route ip cef !</description>
     </item>
     
     <item>
