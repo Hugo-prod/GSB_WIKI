@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Switch"
 date: 2017-10-17T15:26:15Z

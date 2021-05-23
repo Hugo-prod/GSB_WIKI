@@ -73,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://gsb.hugo.grosot.fr/switch/mutlab/</loc>
-    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gsb.hugo.grosot.fr/meta/table-of-contents/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
@@ -149,6 +144,11 @@
   
   <url>
     <loc>https://gsb.hugo.grosot.fr/proxmox/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gsb.hugo.grosot.fr/switch/mutlab/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
   </url>
   
